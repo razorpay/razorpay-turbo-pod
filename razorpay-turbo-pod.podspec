@@ -54,7 +54,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'standard' do |standard| 
-    ui.vendored_frameworks = [
+    standard.vendored_frameworks = [
       'Pod/ui/RazorpayTurboUPIUI.framework',
       'Pod/ui/TurboUpiPluginUI.framework'
     ]
