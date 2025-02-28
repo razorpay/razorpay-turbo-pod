@@ -43,7 +43,6 @@ Pod::Spec.new do |s|
       'Pod/headless/TurboUpiPlugin.framework'
     ]
     headless.dependency 'razorpay-turbo-pod/Core'
-    headless.dependency 'razorpay-customui-pod'
   end
 
   s.subspec 'ui' do |ui| 
@@ -52,7 +51,6 @@ Pod::Spec.new do |s|
       'Pod/ui/TurboUpiPluginUI.framework'
     ]
     ui.dependency 'razorpay-turbo-pod/Core'
-    headless.dependency 'razorpay-customui-pod'
   end
 
   s.subspec 'standard' do |standard| 
@@ -61,6 +59,5 @@ Pod::Spec.new do |s|
       'Pod/ui/TurboUpiPluginUI.framework'
     ]
     standard.dependency 'razorpay-turbo-pod/Core'
-    standard.dependency 'razorpay-pod'
   end
 end
