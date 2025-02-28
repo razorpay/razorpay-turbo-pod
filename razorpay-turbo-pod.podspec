@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.0'
   s.swift_version = '5.0'
 
-  s.subspec 'RazorpayTurboCore' do |core| 
+  s.subspec 'Core' do |core| 
     core.vendored_frameworks = [
       'Pod/core/CommonLibrary.framework',
       'Pod/core/Sentry.framework',
@@ -42,7 +42,8 @@ Pod::Spec.new do |s|
       'Pod/headless/RazorpayTurboUPI.framework',
       'Pod/headless/TurboUpiPlugin.framework'
     ]
-    headless.dependency 'razorpay-turbo-pod/RazorpayTurboCore'
+    headless.dependency 'razorpay-turbo-pod/Core'
+    headless.dependency 'razorpay-customui-pod'
   end
 
   s.subspec 'ui' do |ui| 
@@ -50,6 +51,16 @@ Pod::Spec.new do |s|
       'Pod/ui/RazorpayTurboUPIUI.framework',
       'Pod/ui/TurboUpiPluginUI.framework'
     ]
-    ui.dependency 'razorpay-turbo-pod/RazorpayTurboCore'
+    ui.dependency 'razorpay-turbo-pod/Core'
+    headless.dependency 'razorpay-customui-pod'
+  end
+
+  s.subspec 'standard' do |standard| 
+    ui.vendored_frameworks = [
+      'Pod/ui/RazorpayTurboUPIUI.framework',
+      'Pod/ui/TurboUpiPluginUI.framework'
+    ]
+    standard.dependency 'razorpay-turbo-pod/Core'
+    standard.dependency 'razorpay-pod'
   end
 end
