@@ -41,6 +41,7 @@ Pod::Spec.new do |s|
     headless.vendored_frameworks = [
       'Pod/headless/RazorpayTurboUPI.framework',
       'Pod/headless/TurboUpiPlugin.framework'
+      'Pod/checkout/custom/Razorpay.xcframework'
     ]
     headless.dependency 'razorpay-turbo-pod/Core'
   end
@@ -49,6 +50,7 @@ Pod::Spec.new do |s|
     ui.vendored_frameworks = [
       'Pod/ui/RazorpayTurboUPIUI.framework',
       'Pod/ui/TurboUpiPluginUI.framework'
+      'Pod/checkout/custom/Razorpay.xcframework'
     ]
     ui.dependency 'razorpay-turbo-pod/Core'
   end
@@ -57,6 +59,7 @@ Pod::Spec.new do |s|
     standard.vendored_frameworks = [
       'Pod/ui/RazorpayTurboUPIUI.framework',
       'Pod/ui/TurboUpiPluginUI.framework'
+      'Pod/checkout/standard/Razorpay.xcframework'
     ]
     standard.dependency 'razorpay-turbo-pod/Core'
   end
