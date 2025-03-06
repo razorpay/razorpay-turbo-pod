@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'razorpay-turbo-standard'
+  s.name             = 'razorpay-turbo'
   s.version          = '2.0.0'
   s.summary          = "CocoaPod implementation of Razorpay's Turbo in-app UPI Payments"
 
@@ -42,7 +42,7 @@ Pod::Spec.new do |s|
       'Pod/ui/RazorpayTurboUPIUI.framework',
       'Pod/ui/TurboUpiPluginUI.framework'
     ]
-    standard.dependency 'razorpay-turbo-standard/Core'
+    standard.dependency 'razorpay-turbo/Core'
     standard.dependency 'razorpay-pod'
   end
 end
