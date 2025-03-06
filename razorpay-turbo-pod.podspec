@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'razorpay-turbo-pod'
+  s.name             = 'razorpay-turbo-standard'
   s.version          = '2.0.0'
   s.summary          = "CocoaPod implementation of Razorpay's Turbo in-app UPI Payments"
 
@@ -35,22 +35,6 @@ Pod::Spec.new do |s|
       'Pod/core/Sentry.framework',
       'Pod/core/two_party.framework'
     ]
-  end
-
-  s.subspec 'headless' do |headless| 
-    headless.vendored_frameworks = [
-      'Pod/headless/RazorpayTurboUPI.framework',
-      'Pod/headless/TurboUpiPlugin.framework'
-    ]
-    headless.dependency 'razorpay-turbo-pod/Core'
-  end
-
-  s.subspec 'ui' do |ui| 
-    ui.vendored_frameworks = [
-      'Pod/ui/RazorpayTurboUPIUI.framework',
-      'Pod/ui/TurboUpiPluginUI.framework'
-    ]
-    ui.dependency 'razorpay-turbo-pod/Core'
   end
 
   s.subspec 'standard' do |standard| 

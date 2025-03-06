@@ -1,4 +1,0 @@
-framework module TurboUpiPluginUI {
-  header "TurboUpiPluginUI-Swift.h"
-  requires objc
-}
