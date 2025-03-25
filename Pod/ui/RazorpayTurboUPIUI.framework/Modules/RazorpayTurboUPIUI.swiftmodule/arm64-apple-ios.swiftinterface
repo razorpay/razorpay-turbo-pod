@@ -114,8 +114,6 @@ public class RazorpayUpi {
     get
   }
   @discardableResult
-  public init?(keyId: Swift.String, sessionId: Swift.String, mobileNo: Swift.String, orderId: Swift.String?, customerId: Swift.String? = nil, callback: @escaping RazorpayTurboUPIUI.CallBack<Swift.Bool>)
-  @discardableResult
   public init?(keyId: Swift.String, sessionId: Swift.String, sim: RazorpayTurboUPIUI.SIM, orderId: Swift.String?, customerId: Swift.String? = nil, callback: @escaping RazorpayTurboUPIUI.CallBack<Swift.Bool>)
   @discardableResult
   public init?(keyId: Swift.String, sessionId: Swift.String, orderId: Swift.String?, customerId: Swift.String, callback: @escaping RazorpayTurboUPIUI.CallBack<Swift.Bool>)
