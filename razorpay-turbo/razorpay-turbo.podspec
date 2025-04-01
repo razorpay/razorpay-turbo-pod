@@ -43,6 +43,6 @@ Pod::Spec.new do |s|
       'Pod/ui/TurboUpiPluginUI.framework'
     ]
     standard.dependency 'razorpay-turbo/Core'
-    standard.dependency 'razorpay-customui-pod'
+    standard.dependency 'razorpay-pod'
   end
 end
