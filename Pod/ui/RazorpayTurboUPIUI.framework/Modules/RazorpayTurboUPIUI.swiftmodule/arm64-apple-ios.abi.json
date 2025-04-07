@@ -76937,6 +76937,33 @@
           },
           {
             "kind": "Function",
+            "name": "getMccCode",
+            "printedName": "getMccCode()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18RazorpayTurboUPIUI14WrapperGenericC10getMccCodeSSSgyF",
+            "mangledName": "$s18RazorpayTurboUPIUI14WrapperGenericC10getMccCodeSSSgyF",
+            "moduleName": "RazorpayTurboUPIUI",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "fetchToken",
             "printedName": "fetchToken(completion:)",
             "children": [
@@ -93239,6 +93266,55 @@
                     "declKind": "Accessor",
                     "usr": "s:18RazorpayTurboUPIUI9ConstantsV9STORE_KEYV22VERIFIED_MOBILE_NUMBERSSvgZ",
                     "mangledName": "$s18RazorpayTurboUPIUI9ConstantsV9STORE_KEYV22VERIFIED_MOBILE_NUMBERSSvgZ",
+                    "moduleName": "RazorpayTurboUPIUI",
+                    "static": true,
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "MCC_CODE",
+                "printedName": "MCC_CODE",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:18RazorpayTurboUPIUI9ConstantsV9STORE_KEYV8MCC_CODESSvpZ",
+                "mangledName": "$s18RazorpayTurboUPIUI9ConstantsV9STORE_KEYV8MCC_CODESSvpZ",
+                "moduleName": "RazorpayTurboUPIUI",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:18RazorpayTurboUPIUI9ConstantsV9STORE_KEYV8MCC_CODESSvgZ",
+                    "mangledName": "$s18RazorpayTurboUPIUI9ConstantsV9STORE_KEYV8MCC_CODESSvgZ",
                     "moduleName": "RazorpayTurboUPIUI",
                     "static": true,
                     "implicit": true,
@@ -186096,49 +186172,49 @@
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Extensions\/UIdeviceExtension.swift",
       "kind": "IntegerLiteral",
-      "offset": 11014,
+      "offset": 11093,
       "length": 2,
       "value": "-2"
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Extensions\/UIdeviceExtension.swift",
       "kind": "StringLiteral",
-      "offset": 11065,
+      "offset": 11144,
       "length": 6,
       "value": "\"fork\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Extensions\/UIdeviceExtension.swift",
       "kind": "IntegerLiteral",
-      "offset": 11264,
+      "offset": 11343,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Extensions\/UIdeviceExtension.swift",
       "kind": "IntegerLiteral",
-      "offset": 11300,
+      "offset": 11379,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Extensions\/UIdeviceExtension.swift",
       "kind": "BooleanLiteral",
-      "offset": 11391,
+      "offset": 11470,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Extensions\/UIdeviceExtension.swift",
       "kind": "BooleanLiteral",
-      "offset": 11430,
+      "offset": 11509,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Extensions\/UIdeviceExtension.swift",
       "kind": "StringLiteral",
-      "offset": 15417,
+      "offset": 15496,
       "length": 7,
       "value": "\"Apple\""
     },
@@ -187536,6 +187612,13 @@
       "value": "\"verified_mobile_number_key\""
     },
     {
+      "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Models\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 7807,
+      "length": 14,
+      "value": "\"mcc_code_key\""
+    },
+    {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/RazorpayUPI\/Screens\/Onboarding\/PrefetchBanks\/ViewController\/PrefetchBanksViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 731,
@@ -188875,7 +188958,7 @@
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Resources\/P2M\/SDKStorage\/UtilUserDefaults.swift",
       "kind": "IntegerLiteral",
-      "offset": 4771,
+      "offset": 4865,
       "length": 3,
       "value": "128"
     },
