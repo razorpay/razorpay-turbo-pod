@@ -10,35 +10,35 @@
 		</data>
 		<key>Headers/TurboUpiPluginUI-Swift.h</key>
 		<data>
-		VLdFBpD8skdnCWCYD+7UvZvTCOs=
+		24H6BYupZnN0IjQPnVb9vERvNjg=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		rBURJoR1DhCPXbzzI+icT/oP2NM=
+		6eJbwTFWgMUPaCjKSpXq5kkADMI=
 		</data>
 		<key>Modules/TurboUpiPluginUI.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		NQcFgKqRQ9lTSJl0mjwDhek9O/M=
+		F3kXlzuGpu1KsMz16u/Y5hvD1Q4=
 		</data>
 		<key>Modules/TurboUpiPluginUI.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		rPMfGx8y8xL/v0oe+mIFhKvXLU0=
+		hfQk1jpaz1qkQYAADsJBH1BBGoo=
 		</data>
 		<key>Modules/TurboUpiPluginUI.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		81c1xOPBt+hPPn21PI1MdWqSV+8=
+		/qUBztQ4clLAF/UmMTWt74hdfZ0=
 		</data>
 		<key>Modules/TurboUpiPluginUI.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		3yH6q/MlqLOo/FePUFd7ycAYV1Q=
+		+a9t75PE7fDb6RcFQThacfIBLZc=
 		</data>
 		<key>Modules/TurboUpiPluginUI.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		81c1xOPBt+hPPn21PI1MdWqSV+8=
+		/qUBztQ4clLAF/UmMTWt74hdfZ0=
 		</data>
 		<key>Modules/TurboUpiPluginUI.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		+nGpUQ91nreRchjWhKFkNsG/BvE=
+		9PtBg98kJy361k1rasZLO0CNxCc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -58,49 +58,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oocRwSs0AJIwB/io4wKs/lXgYLbBM1eEnoTcNiWBm28=
+			9GT/vMAaucDC+XjuU7++Z8ZTHVbKuXVKtNPqEaUJRnA=
 			</data>
 		</dict>
 		<key>Modules/TurboUpiPluginUI.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lA3cRq3M/Z9KMMWyBwBjEGB1zMXkmZfv6J+ndKZxRnc=
+			MiGKpPrbSulbiXeM5Y9JRygmzUxHkP98937WBzHfqSI=
 			</data>
 		</dict>
 		<key>Modules/TurboUpiPluginUI.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eoVrFEOR5pn4kDeSFINmG+H20/DMkeLp+uldCaNoC+o=
+			Q9sRurrpiJrM+uIsWx7VIZ35SV2wMmmv+UADpcA1CfQ=
 			</data>
 		</dict>
 		<key>Modules/TurboUpiPluginUI.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pWB/C4VBhXLCrfFqEVW3wIOx2rYFbOAcqN/dLMN5FVs=
+			OskSa1oVWZOSiclbn+AQ0DnBQZmxj8HUNKlRvdcogwg=
 			</data>
 		</dict>
 		<key>Modules/TurboUpiPluginUI.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kkRVF+L2LZrtbBuymLUEaF30DoA9uifiNAu7Sqn6gnU=
+			V7BgRxlvBUVXExW+I/62T+/Ey9ve/mKVjqB5WNx3/BI=
 			</data>
 		</dict>
 		<key>Modules/TurboUpiPluginUI.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pWB/C4VBhXLCrfFqEVW3wIOx2rYFbOAcqN/dLMN5FVs=
+			OskSa1oVWZOSiclbn+AQ0DnBQZmxj8HUNKlRvdcogwg=
 			</data>
 		</dict>
 		<key>Modules/TurboUpiPluginUI.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g79hSWa5xWMjRdu3kxDRke5g3kV4+w2BsCKsksiz+EY=
+			thw+8rcItNSM/clXiyUgtMmYFai8SqdhkuiSQGN7n9o=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
