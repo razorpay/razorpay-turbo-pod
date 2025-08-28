@@ -12,6 +12,8 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public protocol RazorpayTokenProvider {
+}
 public typealias CallBack<T> = (_ response: T?, _ error: TurboUpiPluginUI.TurboError?) -> Swift.Void
 @objc public protocol UpiTurboLinkAccountDelegate {
   @objc func onResponse(_ action: TurboUpiPluginUI.LinkUpiAction)
@@ -36,8 +38,6 @@ extension TurboUpiPluginUI.RazorpayTurbo {
   public var hasToken: Swift.Bool {
     get
   }
-}
-public protocol RazorpayTokenProvider {
 }
 @objc @_inheritsConvenienceInitializers public class RazorpayTurboTPV : ObjectiveC.NSObject {
   @objc override dynamic public init()
