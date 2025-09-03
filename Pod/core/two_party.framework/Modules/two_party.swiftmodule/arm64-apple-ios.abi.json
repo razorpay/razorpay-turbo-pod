@@ -156479,6 +156479,180 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "MockJSONManager",
+        "printedName": "MockJSONManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MockJSONManager",
+                "printedName": "two_party.MockJSONManager",
+                "usr": "s:9two_party15MockJSONManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9two_party15MockJSONManagerC6sharedACvpZ",
+            "mangledName": "$s9two_party15MockJSONManagerC6sharedACvpZ",
+            "moduleName": "two_party",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MockJSONManager",
+                    "printedName": "two_party.MockJSONManager",
+                    "usr": "s:9two_party15MockJSONManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9two_party15MockJSONManagerC6sharedACvgZ",
+                "mangledName": "$s9two_party15MockJSONManagerC6sharedACvgZ",
+                "moduleName": "two_party",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currentMockFile",
+            "printedName": "currentMockFile",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9two_party15MockJSONManagerC07currentC4File33_1CF9A7B99C6E03458CCD732E0CB9ABBFLLSSvp",
+            "mangledName": "$s9two_party15MockJSONManagerC07currentC4File33_1CF9A7B99C6E03458CCD732E0CB9ABBFLLSSvp",
+            "moduleName": "two_party",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true
+          },
+          {
+            "kind": "Function",
+            "name": "setMockFile",
+            "printedName": "setMockFile(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9two_party15MockJSONManagerC03setC4FileyySSF",
+            "mangledName": "$s9two_party15MockJSONManagerC03setC4FileyySSF",
+            "moduleName": "two_party",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCurrentMockFile",
+            "printedName": "getCurrentMockFile()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9two_party15MockJSONManagerC010getCurrentC4FileSSyF",
+            "mangledName": "$s9two_party15MockJSONManagerC010getCurrentC4FileSSyF",
+            "moduleName": "two_party",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "determineMockFile",
+            "printedName": "determineMockFile(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9two_party15MockJSONManagerC09determineC4File3forySS_tF",
+            "mangledName": "$s9two_party15MockJSONManagerC09determineC4File3forySS_tF",
+            "moduleName": "two_party",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9two_party15MockJSONManagerC",
+        "mangledName": "$s9two_party15MockJSONManagerC",
+        "moduleName": "two_party",
+        "isOpen": true,
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "InternalError",
         "printedName": "InternalError",
         "children": [
@@ -176832,14 +177006,14 @@
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/payment\/repo\/CreatePaymentsRepo.swift",
       "kind": "StringLiteral",
-      "offset": 3976,
+      "offset": 4096,
       "length": 15,
       "value": "\"fundsource_id\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/payment\/repo\/CreatePaymentsRepo.swift",
       "kind": "StringLiteral",
-      "offset": 4011,
+      "offset": 4131,
       "length": 5,
       "value": "\"vpa\""
     },
@@ -177189,7 +177363,7 @@
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/common\/CommonOnboarding.swift",
       "kind": "StringLiteral",
-      "offset": 23122,
+      "offset": 23155,
       "length": 2,
       "value": "\"\""
     },
@@ -177203,21 +177377,21 @@
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/rzp_npci_cl\/abstraction\/npci_layers\/PROD\/NPCICredentialsPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 250,
+      "offset": 567,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/rzp_npci_cl\/abstraction\/npci_layers\/PROD\/NPCICredentialsPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 286,
+      "offset": 603,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/network\/base\/Network.swift",
       "kind": "BooleanLiteral",
-      "offset": 957,
+      "offset": 973,
       "length": 5,
       "value": "false"
     },
@@ -177595,259 +177769,259 @@
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/two-party\/Constants\/SDKConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1777,
+      "offset": 1723,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/two-party\/Constants\/SDKConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1811,
+      "offset": 1757,
       "length": 6,
       "value": "\"1111\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/two-party\/Constants\/SDKConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2350,
+      "offset": 2296,
       "length": 6,
       "value": "\"NPCI\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/two-party\/Constants\/SDKConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2394,
+      "offset": 2340,
       "length": 9,
       "value": "\"#CD135F\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/two-party\/Constants\/SDKConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2439,
+      "offset": 2385,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/two-party\/Constants\/SDKConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 2511,
+      "offset": 2457,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/two-party\/Constants\/SDKConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 2575,
+      "offset": 2521,
       "length": 4,
       "value": "5000"
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/two-party\/Constants\/SDKConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 2648,
+      "offset": 2594,
       "length": 6,
       "value": "180000"
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/two-party\/Constants\/SDKConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2725,
+      "offset": 2671,
       "length": 26,
       "value": "\"SMS_VERIFICATION_PENDING\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/two-party\/Constants\/SDKConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 2815,
+      "offset": 2761,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/two-party\/Constants\/SDKConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 2877,
+      "offset": 2823,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/two-party\/Constants\/SDKConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 2949,
+      "offset": 2895,
       "length": 6,
       "value": "180000"
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/two-party\/Constants\/SDKConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 3003,
+      "offset": 2949,
       "length": 4,
       "value": "3000"
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/two-party\/Constants\/SDKConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 3059,
+      "offset": 3005,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/two-party\/Constants\/SDKConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 3120,
+      "offset": 3066,
       "length": 6,
       "value": "180000"
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/two-party\/Constants\/SDKConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 3187,
+      "offset": 3133,
       "length": 4,
       "value": "5000"
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/two-party\/Constants\/SDKConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 3257,
+      "offset": 3203,
       "length": 4,
       "value": "5000"
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/two-party\/Constants\/SDKConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 3307,
+      "offset": 3253,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/two-party\/Constants\/SDKConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 3354,
+      "offset": 3300,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/two-party\/Constants\/SDKConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 3413,
+      "offset": 3359,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/two-party\/Constants\/SDKConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3469,
+      "offset": 3415,
       "length": 16,
       "value": "\"key_for_crypto\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/two-party\/Constants\/SDKConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3539,
+      "offset": 3485,
       "length": 7,
       "value": "\"en_US\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/two-party\/Constants\/SDKConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 3613,
+      "offset": 3559,
       "length": 5,
       "value": "45000"
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/two-party\/Constants\/SDKConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 3683,
+      "offset": 3629,
       "length": 4,
       "value": "2000"
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/two-party\/Constants\/SDKConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 3741,
+      "offset": 3687,
       "length": 4,
       "value": "8000"
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/two-party\/Constants\/SDKConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 3797,
+      "offset": 3743,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/two-party\/Constants\/SDKConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 3851,
+      "offset": 3797,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/two-party\/Constants\/SDKConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3905,
+      "offset": 3851,
       "length": 35,
       "value": "\"https:\/\/api.ipify.org?format=json\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/two-party\/Constants\/SDKConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3992,
+      "offset": 3938,
       "length": 42,
       "value": "\"https:\/\/lumberjack.razorpay.com\/v1\/track\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/two-party\/Constants\/SDKConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 4089,
+      "offset": 4035,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/two-party\/Constants\/SDKConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 4156,
+      "offset": 4102,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/two-party\/Constants\/SDKConfig.swift",
       "kind": "StringLiteral",
-      "offset": 4218,
+      "offset": 4164,
       "length": 34,
       "value": "\"mclk7xa0n7rpyan7rn6k0zy6gba9thw9\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/two-party\/Constants\/SDKConfig.swift",
       "kind": "StringLiteral",
-      "offset": 4308,
+      "offset": 4254,
       "length": 87,
       "value": "\"https:\/\/aa683c0ca7861fbc181d0cd5412d1298@o515678.ingest.us.sentry.io\/4507615814025216\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/two-party\/Constants\/SDKConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 4456,
+      "offset": 4402,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/two-party\/Constants\/SDKConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 4537,
+      "offset": 4483,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/two-party\/Constants\/SDKConfig.swift",
       "kind": "StringLiteral",
-      "offset": 4604,
+      "offset": 4550,
       "length": 12,
       "value": "\"production\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/two-party\/Constants\/SDKConfig.swift",
       "kind": "StringLiteral",
-      "offset": 4666,
+      "offset": 4612,
       "length": 8,
       "value": "\"504432\""
     },
@@ -178799,1631 +178973,1631 @@
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 3713,
+      "offset": 3699,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 3805,
+      "offset": 3791,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4146,
+      "offset": 4132,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 4238,
+      "offset": 4224,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4484,
+      "offset": 4470,
       "length": 9,
       "value": "\"iPod5,1\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4540,
+      "offset": 4526,
       "length": 29,
       "value": "\"iPod touch (5th generation)\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4587,
+      "offset": 4573,
       "length": 9,
       "value": "\"iPod7,1\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4643,
+      "offset": 4629,
       "length": 29,
       "value": "\"iPod touch (6th generation)\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4690,
+      "offset": 4676,
       "length": 9,
       "value": "\"iPod9,1\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4746,
+      "offset": 4732,
       "length": 29,
       "value": "\"iPod touch (7th generation)\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4793,
+      "offset": 4779,
       "length": 11,
       "value": "\"iPhone3,1\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4806,
+      "offset": 4792,
       "length": 11,
       "value": "\"iPhone3,2\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4819,
+      "offset": 4805,
       "length": 11,
       "value": "\"iPhone3,3\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4849,
+      "offset": 4835,
       "length": 10,
       "value": "\"iPhone 4\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4877,
+      "offset": 4863,
       "length": 11,
       "value": "\"iPhone4,1\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4933,
+      "offset": 4919,
       "length": 11,
       "value": "\"iPhone 4s\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4962,
+      "offset": 4948,
       "length": 11,
       "value": "\"iPhone5,1\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 4975,
+      "offset": 4961,
       "length": 11,
       "value": "\"iPhone5,2\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5018,
+      "offset": 5004,
       "length": 10,
       "value": "\"iPhone 5\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5046,
+      "offset": 5032,
       "length": 11,
       "value": "\"iPhone5,3\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5059,
+      "offset": 5045,
       "length": 11,
       "value": "\"iPhone5,4\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5102,
+      "offset": 5088,
       "length": 11,
       "value": "\"iPhone 5c\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5131,
+      "offset": 5117,
       "length": 11,
       "value": "\"iPhone6,1\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5144,
+      "offset": 5130,
       "length": 11,
       "value": "\"iPhone6,2\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5187,
+      "offset": 5173,
       "length": 11,
       "value": "\"iPhone 5s\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5216,
+      "offset": 5202,
       "length": 11,
       "value": "\"iPhone7,2\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5272,
+      "offset": 5258,
       "length": 10,
       "value": "\"iPhone 6\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5300,
+      "offset": 5286,
       "length": 11,
       "value": "\"iPhone7,1\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5356,
+      "offset": 5342,
       "length": 15,
       "value": "\"iPhone 6 Plus\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5389,
+      "offset": 5375,
       "length": 11,
       "value": "\"iPhone8,1\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5445,
+      "offset": 5431,
       "length": 11,
       "value": "\"iPhone 6s\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5474,
+      "offset": 5460,
       "length": 11,
       "value": "\"iPhone8,2\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5530,
+      "offset": 5516,
       "length": 16,
       "value": "\"iPhone 6s Plus\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5564,
+      "offset": 5550,
       "length": 11,
       "value": "\"iPhone9,1\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5577,
+      "offset": 5563,
       "length": 11,
       "value": "\"iPhone9,3\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5620,
+      "offset": 5606,
       "length": 10,
       "value": "\"iPhone 7\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5648,
+      "offset": 5634,
       "length": 11,
       "value": "\"iPhone9,2\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5661,
+      "offset": 5647,
       "length": 11,
       "value": "\"iPhone9,4\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5704,
+      "offset": 5690,
       "length": 15,
       "value": "\"iPhone 7 Plus\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5737,
+      "offset": 5723,
       "length": 12,
       "value": "\"iPhone10,1\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5751,
+      "offset": 5737,
       "length": 12,
       "value": "\"iPhone10,4\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5793,
+      "offset": 5779,
       "length": 10,
       "value": "\"iPhone 8\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5821,
+      "offset": 5807,
       "length": 12,
       "value": "\"iPhone10,2\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5835,
+      "offset": 5821,
       "length": 12,
       "value": "\"iPhone10,5\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5877,
+      "offset": 5863,
       "length": 15,
       "value": "\"iPhone 8 Plus\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5910,
+      "offset": 5896,
       "length": 12,
       "value": "\"iPhone10,3\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5924,
+      "offset": 5910,
       "length": 12,
       "value": "\"iPhone10,6\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5966,
+      "offset": 5952,
       "length": 10,
       "value": "\"iPhone X\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 5994,
+      "offset": 5980,
       "length": 12,
       "value": "\"iPhone11,2\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6050,
+      "offset": 6036,
       "length": 11,
       "value": "\"iPhone XS\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6079,
+      "offset": 6065,
       "length": 12,
       "value": "\"iPhone11,4\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6093,
+      "offset": 6079,
       "length": 12,
       "value": "\"iPhone11,6\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6135,
+      "offset": 6121,
       "length": 15,
       "value": "\"iPhone XS Max\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6168,
+      "offset": 6154,
       "length": 12,
       "value": "\"iPhone11,8\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6224,
+      "offset": 6210,
       "length": 11,
       "value": "\"iPhone XR\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6253,
+      "offset": 6239,
       "length": 12,
       "value": "\"iPhone12,1\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6309,
+      "offset": 6295,
       "length": 11,
       "value": "\"iPhone 11\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6338,
+      "offset": 6324,
       "length": 12,
       "value": "\"iPhone12,3\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6394,
+      "offset": 6380,
       "length": 15,
       "value": "\"iPhone 11 Pro\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6427,
+      "offset": 6413,
       "length": 12,
       "value": "\"iPhone12,5\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6483,
+      "offset": 6469,
       "length": 19,
       "value": "\"iPhone 11 Pro Max\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6520,
+      "offset": 6506,
       "length": 12,
       "value": "\"iPhone13,1\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6576,
+      "offset": 6562,
       "length": 16,
       "value": "\"iPhone 12 mini\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6610,
+      "offset": 6596,
       "length": 12,
       "value": "\"iPhone13,2\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6666,
+      "offset": 6652,
       "length": 11,
       "value": "\"iPhone 12\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6695,
+      "offset": 6681,
       "length": 12,
       "value": "\"iPhone13,3\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6751,
+      "offset": 6737,
       "length": 15,
       "value": "\"iPhone 12 Pro\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6784,
+      "offset": 6770,
       "length": 12,
       "value": "\"iPhone13,4\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6840,
+      "offset": 6826,
       "length": 19,
       "value": "\"iPhone 12 Pro Max\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6877,
+      "offset": 6863,
       "length": 12,
       "value": "\"iPhone14,4\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6933,
+      "offset": 6919,
       "length": 16,
       "value": "\"iPhone 13 mini\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 6967,
+      "offset": 6953,
       "length": 12,
       "value": "\"iPhone14,5\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7023,
+      "offset": 7009,
       "length": 11,
       "value": "\"iPhone 13\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7052,
+      "offset": 7038,
       "length": 12,
       "value": "\"iPhone14,2\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7108,
+      "offset": 7094,
       "length": 15,
       "value": "\"iPhone 13 Pro\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7141,
+      "offset": 7127,
       "length": 12,
       "value": "\"iPhone14,3\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7197,
+      "offset": 7183,
       "length": 19,
       "value": "\"iPhone 13 Pro Max\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7234,
+      "offset": 7220,
       "length": 12,
       "value": "\"iPhone14,7\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7290,
+      "offset": 7276,
       "length": 11,
       "value": "\"iPhone 14\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7319,
+      "offset": 7305,
       "length": 12,
       "value": "\"iPhone14,8\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7375,
+      "offset": 7361,
       "length": 16,
       "value": "\"iPhone 14 Plus\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7409,
+      "offset": 7395,
       "length": 12,
       "value": "\"iPhone15,2\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7465,
+      "offset": 7451,
       "length": 15,
       "value": "\"iPhone 14 Pro\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7498,
+      "offset": 7484,
       "length": 12,
       "value": "\"iPhone15,3\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7554,
+      "offset": 7540,
       "length": 19,
       "value": "\"iPhone 14 Pro Max\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7591,
+      "offset": 7577,
       "length": 12,
       "value": "\"iPhone15,4\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7647,
+      "offset": 7633,
       "length": 11,
       "value": "\"iPhone 15\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7676,
+      "offset": 7662,
       "length": 12,
       "value": "\"iPhone15,5\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7732,
+      "offset": 7718,
       "length": 16,
       "value": "\"iPhone 15 Plus\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7766,
+      "offset": 7752,
       "length": 12,
       "value": "\"iPhone16,1\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7822,
+      "offset": 7808,
       "length": 15,
       "value": "\"iPhone 15 Pro\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7855,
+      "offset": 7841,
       "length": 12,
       "value": "\"iPhone16,2\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7911,
+      "offset": 7897,
       "length": 19,
       "value": "\"iPhone 15 Pro Max\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 7948,
+      "offset": 7934,
       "length": 11,
       "value": "\"iPhone8,4\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 8004,
+      "offset": 7990,
       "length": 11,
       "value": "\"iPhone SE\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 8033,
+      "offset": 8019,
       "length": 12,
       "value": "\"iPhone12,8\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 8089,
+      "offset": 8075,
       "length": 28,
       "value": "\"iPhone SE (2nd generation)\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 8135,
+      "offset": 8121,
       "length": 12,
       "value": "\"iPhone14,6\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 8191,
+      "offset": 8177,
       "length": 28,
       "value": "\"iPhone SE (3rd generation)\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 8237,
+      "offset": 8223,
       "length": 9,
       "value": "\"iPad2,1\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 8248,
+      "offset": 8234,
       "length": 9,
       "value": "\"iPad2,2\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 8259,
+      "offset": 8245,
       "length": 9,
       "value": "\"iPad2,3\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 8270,
+      "offset": 8256,
       "length": 9,
       "value": "\"iPad2,4\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 8293,
+      "offset": 8279,
       "length": 8,
       "value": "\"iPad 2\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 8319,
+      "offset": 8305,
       "length": 9,
       "value": "\"iPad3,1\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 8330,
+      "offset": 8316,
       "length": 9,
       "value": "\"iPad3,2\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 8341,
+      "offset": 8327,
       "length": 9,
       "value": "\"iPad3,3\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 8375,
+      "offset": 8361,
       "length": 23,
       "value": "\"iPad (3rd generation)\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 8416,
+      "offset": 8402,
       "length": 9,
       "value": "\"iPad3,4\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 8427,
+      "offset": 8413,
       "length": 9,
       "value": "\"iPad3,5\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 8438,
+      "offset": 8424,
       "length": 9,
       "value": "\"iPad3,6\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 8472,
+      "offset": 8458,
       "length": 23,
       "value": "\"iPad (4th generation)\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 8513,
+      "offset": 8499,
       "length": 10,
       "value": "\"iPad6,11\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 8525,
+      "offset": 8511,
       "length": 10,
       "value": "\"iPad6,12\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 8569,
+      "offset": 8555,
       "length": 23,
       "value": "\"iPad (5th generation)\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 8610,
+      "offset": 8596,
       "length": 9,
       "value": "\"iPad7,5\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 8621,
+      "offset": 8607,
       "length": 9,
       "value": "\"iPad7,6\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 8666,
+      "offset": 8652,
       "length": 23,
       "value": "\"iPad (6th generation)\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 8707,
+      "offset": 8693,
       "length": 10,
       "value": "\"iPad7,11\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 8719,
+      "offset": 8705,
       "length": 10,
       "value": "\"iPad7,12\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 8763,
+      "offset": 8749,
       "length": 23,
       "value": "\"iPad (7th generation)\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 8804,
+      "offset": 8790,
       "length": 10,
       "value": "\"iPad11,6\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 8816,
+      "offset": 8802,
       "length": 10,
       "value": "\"iPad11,7\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 8860,
+      "offset": 8846,
       "length": 23,
       "value": "\"iPad (8th generation)\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 8901,
+      "offset": 8887,
       "length": 10,
       "value": "\"iPad12,1\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 8913,
+      "offset": 8899,
       "length": 10,
       "value": "\"iPad12,2\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 8957,
+      "offset": 8943,
       "length": 23,
       "value": "\"iPad (9th generation)\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 8998,
+      "offset": 8984,
       "length": 11,
       "value": "\"iPad13,18\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 9011,
+      "offset": 8997,
       "length": 11,
       "value": "\"iPad13,19\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 9054,
+      "offset": 9040,
       "length": 24,
       "value": "\"iPad (10th generation)\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 9096,
+      "offset": 9082,
       "length": 9,
       "value": "\"iPad4,1\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 9107,
+      "offset": 9093,
       "length": 9,
       "value": "\"iPad4,2\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 9118,
+      "offset": 9104,
       "length": 9,
       "value": "\"iPad4,3\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 9152,
+      "offset": 9138,
       "length": 10,
       "value": "\"iPad Air\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 9180,
+      "offset": 9166,
       "length": 9,
       "value": "\"iPad5,3\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 9191,
+      "offset": 9177,
       "length": 9,
       "value": "\"iPad5,4\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 9236,
+      "offset": 9222,
       "length": 12,
       "value": "\"iPad Air 2\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 9266,
+      "offset": 9252,
       "length": 10,
       "value": "\"iPad11,3\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 9278,
+      "offset": 9264,
       "length": 10,
       "value": "\"iPad11,4\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 9322,
+      "offset": 9308,
       "length": 27,
       "value": "\"iPad Air (3rd generation)\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 9367,
+      "offset": 9353,
       "length": 10,
       "value": "\"iPad13,1\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 9379,
+      "offset": 9365,
       "length": 10,
       "value": "\"iPad13,2\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 9423,
+      "offset": 9409,
       "length": 27,
       "value": "\"iPad Air (4th generation)\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 9468,
+      "offset": 9454,
       "length": 11,
       "value": "\"iPad13,16\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 9481,
+      "offset": 9467,
       "length": 11,
       "value": "\"iPad13,17\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 9524,
+      "offset": 9510,
       "length": 27,
       "value": "\"iPad Air (5th generation)\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 9569,
+      "offset": 9555,
       "length": 9,
       "value": "\"iPad2,5\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 9580,
+      "offset": 9566,
       "length": 9,
       "value": "\"iPad2,6\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 9591,
+      "offset": 9577,
       "length": 9,
       "value": "\"iPad2,7\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 9625,
+      "offset": 9611,
       "length": 11,
       "value": "\"iPad mini\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 9654,
+      "offset": 9640,
       "length": 9,
       "value": "\"iPad4,4\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 9665,
+      "offset": 9651,
       "length": 9,
       "value": "\"iPad4,5\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 9676,
+      "offset": 9662,
       "length": 9,
       "value": "\"iPad4,6\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 9710,
+      "offset": 9696,
       "length": 13,
       "value": "\"iPad mini 2\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 9741,
+      "offset": 9727,
       "length": 9,
       "value": "\"iPad4,7\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 9752,
+      "offset": 9738,
       "length": 9,
       "value": "\"iPad4,8\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 9763,
+      "offset": 9749,
       "length": 9,
       "value": "\"iPad4,9\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 9797,
+      "offset": 9783,
       "length": 13,
       "value": "\"iPad mini 3\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 9828,
+      "offset": 9814,
       "length": 9,
       "value": "\"iPad5,1\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 9839,
+      "offset": 9825,
       "length": 9,
       "value": "\"iPad5,2\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 9884,
+      "offset": 9870,
       "length": 13,
       "value": "\"iPad mini 4\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 9915,
+      "offset": 9901,
       "length": 10,
       "value": "\"iPad11,1\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 9927,
+      "offset": 9913,
       "length": 10,
       "value": "\"iPad11,2\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 9971,
+      "offset": 9957,
       "length": 28,
       "value": "\"iPad mini (5th generation)\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 10017,
+      "offset": 10003,
       "length": 10,
       "value": "\"iPad14,1\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 10029,
+      "offset": 10015,
       "length": 10,
       "value": "\"iPad14,2\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 10073,
+      "offset": 10059,
       "length": 28,
       "value": "\"iPad mini (6th generation)\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 10119,
+      "offset": 10105,
       "length": 9,
       "value": "\"iPad6,3\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 10130,
+      "offset": 10116,
       "length": 9,
       "value": "\"iPad6,4\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 10175,
+      "offset": 10161,
       "length": 21,
       "value": "\"iPad Pro (9.7-inch)\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 10214,
+      "offset": 10200,
       "length": 9,
       "value": "\"iPad7,3\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 10225,
+      "offset": 10211,
       "length": 9,
       "value": "\"iPad7,4\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 10270,
+      "offset": 10256,
       "length": 22,
       "value": "\"iPad Pro (10.5-inch)\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 10310,
+      "offset": 10296,
       "length": 9,
       "value": "\"iPad8,1\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 10321,
+      "offset": 10307,
       "length": 9,
       "value": "\"iPad8,2\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 10332,
+      "offset": 10318,
       "length": 9,
       "value": "\"iPad8,3\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 10343,
+      "offset": 10329,
       "length": 9,
       "value": "\"iPad8,4\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 10366,
+      "offset": 10352,
       "length": 37,
       "value": "\"iPad Pro (11-inch) (1st generation)\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 10421,
+      "offset": 10407,
       "length": 9,
       "value": "\"iPad8,9\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 10432,
+      "offset": 10418,
       "length": 10,
       "value": "\"iPad8,10\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 10477,
+      "offset": 10463,
       "length": 37,
       "value": "\"iPad Pro (11-inch) (2nd generation)\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 10532,
+      "offset": 10518,
       "length": 10,
       "value": "\"iPad13,4\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 10544,
+      "offset": 10530,
       "length": 10,
       "value": "\"iPad13,5\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 10556,
+      "offset": 10542,
       "length": 10,
       "value": "\"iPad13,6\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 10568,
+      "offset": 10554,
       "length": 10,
       "value": "\"iPad13,7\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 10588,
+      "offset": 10574,
       "length": 37,
       "value": "\"iPad Pro (11-inch) (3rd generation)\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 10643,
+      "offset": 10629,
       "length": 10,
       "value": "\"iPad14,3\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 10655,
+      "offset": 10641,
       "length": 10,
       "value": "\"iPad14,4\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 10699,
+      "offset": 10685,
       "length": 37,
       "value": "\"iPad Pro (11-inch) (4th generation)\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 10754,
+      "offset": 10740,
       "length": 9,
       "value": "\"iPad6,7\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 10765,
+      "offset": 10751,
       "length": 9,
       "value": "\"iPad6,8\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 10810,
+      "offset": 10796,
       "length": 39,
       "value": "\"iPad Pro (12.9-inch) (1st generation)\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 10867,
+      "offset": 10853,
       "length": 9,
       "value": "\"iPad7,1\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 10878,
+      "offset": 10864,
       "length": 9,
       "value": "\"iPad7,2\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 10923,
+      "offset": 10909,
       "length": 39,
       "value": "\"iPad Pro (12.9-inch) (2nd generation)\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 10980,
+      "offset": 10966,
       "length": 9,
       "value": "\"iPad8,5\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 10991,
+      "offset": 10977,
       "length": 9,
       "value": "\"iPad8,6\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 11002,
+      "offset": 10988,
       "length": 9,
       "value": "\"iPad8,7\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 11013,
+      "offset": 10999,
       "length": 9,
       "value": "\"iPad8,8\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 11036,
+      "offset": 11022,
       "length": 39,
       "value": "\"iPad Pro (12.9-inch) (3rd generation)\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 11093,
+      "offset": 11079,
       "length": 10,
       "value": "\"iPad8,11\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 11105,
+      "offset": 11091,
       "length": 10,
       "value": "\"iPad8,12\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 11149,
+      "offset": 11135,
       "length": 39,
       "value": "\"iPad Pro (12.9-inch) (4th generation)\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 11206,
+      "offset": 11192,
       "length": 10,
       "value": "\"iPad13,8\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 11218,
+      "offset": 11204,
       "length": 10,
       "value": "\"iPad13,9\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 11230,
+      "offset": 11216,
       "length": 11,
       "value": "\"iPad13,10\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 11243,
+      "offset": 11229,
       "length": 11,
       "value": "\"iPad13,11\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 11262,
+      "offset": 11248,
       "length": 39,
       "value": "\"iPad Pro (12.9-inch) (5th generation)\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 11319,
+      "offset": 11305,
       "length": 10,
       "value": "\"iPad14,5\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 11331,
+      "offset": 11317,
       "length": 10,
       "value": "\"iPad14,6\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 11375,
+      "offset": 11361,
       "length": 39,
       "value": "\"iPad Pro (12.9-inch) (6th generation)\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 11432,
+      "offset": 11418,
       "length": 12,
       "value": "\"AppleTV5,3\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 11488,
+      "offset": 11474,
       "length": 10,
       "value": "\"Apple TV\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 11516,
+      "offset": 11502,
       "length": 12,
       "value": "\"AppleTV6,2\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 11572,
+      "offset": 11558,
       "length": 13,
       "value": "\"Apple TV 4K\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 11603,
+      "offset": 11589,
       "length": 19,
       "value": "\"AudioAccessory1,1\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 11659,
+      "offset": 11645,
       "length": 9,
       "value": "\"HomePod\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 11686,
+      "offset": 11672,
       "length": 19,
       "value": "\"AudioAccessory5,1\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 11742,
+      "offset": 11728,
       "length": 14,
       "value": "\"HomePod mini\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 11774,
+      "offset": 11760,
       "length": 6,
       "value": "\"i386\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 11782,
+      "offset": 11768,
       "length": 8,
       "value": "\"x86_64\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 11792,
+      "offset": 11778,
       "length": 7,
       "value": "\"arm64\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 11830,
+      "offset": 11816,
       "length": 104,
       "value": "\"Simulator \""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 11893,
+      "offset": 11879,
       "length": 28,
       "value": "\"SIMULATOR_MODEL_IDENTIFIER\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 11926,
+      "offset": 11912,
       "length": 5,
       "value": "\"iOS\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 11933,
+      "offset": 11919,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 13761,
+      "offset": 13747,
       "length": 14,
       "value": "\"192.168.0.10\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 22353,
+      "offset": 22339,
       "length": 2,
       "value": "-2"
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "StringLiteral",
-      "offset": 22404,
+      "offset": 22390,
       "length": 6,
       "value": "\"fork\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 22603,
+      "offset": 22589,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 22639,
+      "offset": 22625,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "BooleanLiteral",
-      "offset": 22730,
+      "offset": 22716,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/device\/helper\/UIDevice+Extension.swift",
       "kind": "BooleanLiteral",
-      "offset": 22769,
+      "offset": 22755,
       "length": 5,
       "value": "false"
     },
@@ -180906,44 +181080,51 @@
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/rzp_npci_cl\/abstraction\/npci_layers\/PROD\/NPCICredentialsParser.swift",
       "kind": "StringLiteral",
-      "offset": 332,
+      "offset": 1555,
       "length": 6,
       "value": "\"MPIN\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/rzp_npci_cl\/abstraction\/npci_layers\/PROD\/NPCICredentialsParser.swift",
       "kind": "StringLiteral",
-      "offset": 361,
+      "offset": 1584,
       "length": 8,
       "value": "\"ATMPIN\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/rzp_npci_cl\/abstraction\/npci_layers\/PROD\/NPCICredentialsParser.swift",
       "kind": "StringLiteral",
-      "offset": 390,
+      "offset": 1613,
       "length": 5,
       "value": "\"SMS\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/rzp_npci_cl\/abstraction\/npci_layers\/PROD\/NPCICredentialsParser.swift",
       "kind": "StringLiteral",
-      "offset": 419,
+      "offset": 1642,
       "length": 9,
       "value": "\"AADHAAR\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/rzp_npci_cl\/abstraction\/npci_layers\/PROD\/NPCICredentialsParser.swift",
       "kind": "StringLiteral",
-      "offset": 452,
+      "offset": 1675,
       "length": 7,
       "value": "\"NMPIN\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/rzp_npci_cl\/abstraction\/npci_layers\/PROD\/NPCICredentialsParser.swift",
       "kind": "Dictionary",
-      "offset": 1527,
+      "offset": 2750,
       "length": 3,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/network\/mock_json_manager\/MockJSONManager.swift",
+      "kind": "StringLiteral",
+      "offset": 231,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-sdk-core-ios\/upi-sdk\/upi-sdk\/core\/identity\/helper\/EncryptionHelper.swift",

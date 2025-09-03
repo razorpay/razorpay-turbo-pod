@@ -7,13 +7,10 @@ import Foundation
 import Razorpay
 import RazorpayTurboUPIUI
 import Swift
-import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public protocol RazorpayTokenProvider {
-}
 public typealias CallBack<T> = (_ response: T?, _ error: TurboUpiPluginUI.TurboError?) -> Swift.Void
 @objc public protocol UpiTurboLinkAccountDelegate {
   @objc func onResponse(_ action: TurboUpiPluginUI.LinkUpiAction)
@@ -42,6 +39,8 @@ extension TurboUpiPluginUI.RazorpayTurbo {
 @objc @_inheritsConvenienceInitializers public class RazorpayTurboTPV : ObjectiveC.NSObject {
   @objc override dynamic public init()
   @objc deinit
+}
+public protocol RazorpayTokenProvider {
 }
 @_hasMissingDesignatedInitializers @objc public class LinkUpiAction : ObjectiveC.NSObject {
   public typealias Bank = Any
@@ -246,7 +245,7 @@ extension TurboUpiPluginUI.RazorpayTurbo {
 @_inheritsConvenienceInitializers @objc public class RZPTurboUPI : ObjectiveC.NSObject {
   @objc public class func pluginInstance() -> any Razorpay.UPITurboPlugin
   @objc public class func paymentPlugin() -> any Razorpay.PluginPaymentDelegate
-  @objc public class func UIPluginInstance() -> any Razorpay.UPITurboStandardUIPlugin
+  @objc public class func UIPluginInstance() -> any Razorpay.UPITurboUIPlugin
   @objc public class func turboUIPaymentPlugin() -> any Razorpay.PluginPaymentDelegate
   @objc public class func turboTPVUIPlugin() -> any Razorpay.UPITurboTPVUIPlugin
   @objc public class func turboTPVPlugin() -> any Razorpay.UPITurboTPVPlugin

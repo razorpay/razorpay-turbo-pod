@@ -400,14 +400,14 @@ typedef SWIFT_ENUM(NSInteger, LoaderDataEnum, open) {
 
 @protocol UPITurboPlugin;
 @protocol PluginPaymentDelegate;
-@protocol UPITurboStandardUIPlugin;
+@protocol UPITurboUIPlugin;
 @protocol UPITurboTPVUIPlugin;
 @protocol UPITurboTPVPlugin;
 SWIFT_CLASS("_TtC16TurboUpiPluginUI11RZPTurboUPI")
 @interface RZPTurboUPI : NSObject
 + (id <UPITurboPlugin> _Nonnull)pluginInstance SWIFT_WARN_UNUSED_RESULT;
 + (id <PluginPaymentDelegate> _Nonnull)paymentPlugin SWIFT_WARN_UNUSED_RESULT;
-+ (id <UPITurboStandardUIPlugin> _Nonnull)UIPluginInstance SWIFT_WARN_UNUSED_RESULT;
++ (id <UPITurboUIPlugin> _Nonnull)UIPluginInstance SWIFT_WARN_UNUSED_RESULT;
 + (id <PluginPaymentDelegate> _Nonnull)turboUIPaymentPlugin SWIFT_WARN_UNUSED_RESULT;
 + (id <UPITurboTPVUIPlugin> _Nonnull)turboTPVUIPlugin SWIFT_WARN_UNUSED_RESULT;
 + (id <UPITurboTPVPlugin> _Nonnull)turboTPVPlugin SWIFT_WARN_UNUSED_RESULT;
