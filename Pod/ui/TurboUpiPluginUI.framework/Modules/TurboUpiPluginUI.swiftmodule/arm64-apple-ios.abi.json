@@ -26133,12 +26133,26 @@
           {
             "kind": "Function",
             "name": "manageUpiAccount",
-            "printedName": "manageUpiAccount(mobileNumber:handler:)",
+            "printedName": "manageUpiAccount(color:mobileNumber:handler:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -26202,8 +26216,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16TurboUpiPluginUI08RazorpayA9UIHandlerC06manageB7Account12mobileNumber7handlerySSSg_yypSg_AHtctFZ",
-            "mangledName": "$s16TurboUpiPluginUI08RazorpayA9UIHandlerC06manageB7Account12mobileNumber7handlerySSSg_yypSg_AHtctFZ",
+            "usr": "s:16TurboUpiPluginUI08RazorpayA9UIHandlerC06manageB7Account5color12mobileNumber7handlerySSSg_AHyypSg_AItctFZ",
+            "mangledName": "$s16TurboUpiPluginUI08RazorpayA9UIHandlerC06manageB7Account5color12mobileNumber7handlerySSSg_AHyypSg_AItctFZ",
             "moduleName": "TurboUpiPluginUI",
             "static": true,
             "declAttributes": [

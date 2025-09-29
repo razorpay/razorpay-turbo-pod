@@ -320,30 +320,8 @@ typedef SWIFT_ENUM(NSInteger, AmountRule, open) {
   AmountRuleUnspecified = 2,
 };
 
-@class Payer;
-@class Payee;
-@class MandateRecurrenceInfo;
-@class MandateTimeRange;
-enum UpiReferenceCategory : NSInteger;
-enum MandateStatus : NSInteger;
 SWIFT_CLASS("_TtC9two_party14AutopayMandate")
 @interface AutopayMandate : NSObject
-@property (nonatomic, copy) NSString * _Nonnull umn;
-@property (nonatomic, copy) NSString * _Nonnull amount;
-@property (nonatomic) enum AmountRule amountRule;
-@property (nonatomic, strong) Payer * _Nonnull payer;
-@property (nonatomic, strong) Payee * _Nonnull payee;
-@property (nonatomic, copy) NSString * _Nonnull name;
-@property (nonatomic, copy) NSString * _Nonnull expireAt;
-@property (nonatomic) BOOL blockFund;
-@property (nonatomic) BOOL revocableByPayer;
-@property (nonatomic, strong) MandateRecurrenceInfo * _Nonnull recurrence;
-@property (nonatomic, strong) MandateTimeRange * _Nonnull validity;
-@property (nonatomic) enum UpiReferenceCategory upiReferenceCategory;
-@property (nonatomic, copy) NSString * _Nonnull upiReferenceUrl;
-@property (nonatomic, copy) NSString * _Nullable descriptionText;
-@property (nonatomic) enum MandateStatus status;
-@property (nonatomic, copy) NSString * _Nonnull createdAt;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -535,11 +513,12 @@ typedef SWIFT_ENUM(NSInteger, MandateRecurrencePeriod, open) {
 
 typedef SWIFT_ENUM(NSInteger, MandateStatus, open) {
   MandateStatusInitiated = 0,
-  MandateStatusActive = 1,
-  MandateStatusCompleted = 2,
-  MandateStatusPaused = 3,
-  MandateStatusFailed = 4,
-  MandateStatusUnspecified = 5,
+  MandateStatusCreated = 1,
+  MandateStatusActive = 2,
+  MandateStatusCompleted = 3,
+  MandateStatusPaused = 4,
+  MandateStatusFailed = 5,
+  MandateStatusUnspecified = 6,
 };
 
 SWIFT_CLASS("_TtC9two_party16MandateTimeRange")
@@ -580,6 +559,7 @@ SWIFT_CLASS("_TtC9two_party5Payer")
 @interface Payer : NSObject
 @property (nonatomic, strong) FundSource * _Nullable fundSource;
 @property (nonatomic, copy) NSString * _Nullable vpa;
+@property (nonatomic, copy) NSString * _Nullable name;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -773,13 +753,6 @@ SWIFT_CLASS("_TtC9two_party3UPI")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
-
-typedef SWIFT_ENUM(NSInteger, UpiReferenceCategory, open) {
-  UpiReferenceCategoryDefault = 00,
-  UpiReferenceCategoryAdvertisement = 11,
-  UpiReferenceCategoryInvoice = 22,
-  UpiReferenceCategoryUnspecified = -1,
-};
 
 typedef SWIFT_ENUM(NSInteger, VpaStatus, open) {
   VpaStatusInactive = 0,

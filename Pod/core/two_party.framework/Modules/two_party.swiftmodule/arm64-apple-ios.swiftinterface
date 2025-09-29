@@ -33,6 +33,7 @@ import _SwiftConcurrencyShims
 }
 @objc public enum MandateStatus : Swift.Int {
   case initiated
+  case created
   case active
   case completed
   case paused
@@ -53,18 +54,15 @@ import _SwiftConcurrencyShims
   @objc override dynamic public init()
   @objc deinit
 }
-@objc public enum UpiReferenceCategory : Swift.Int {
-  case `default` = 00
-  case advertisement = 11
-  case invoice = 22
-  case unspecified = -1
-  public var description: Swift.String {
-    get
-  }
+public enum UpiReferenceCategory : Swift.String {
+  case `default`
+  case advertisement
+  case invoice
+  case unspecified
   public init(string: Swift.String)
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
     get
   }
 }
@@ -72,6 +70,11 @@ import _SwiftConcurrencyShims
   @objc public var count: Swift.Int
   @objc public var items: [two_party.RZPPayment]?
   public init(count: Swift.Int, items: [two_party.RZPPayment]?)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class NPCICredentialHelper {
+  public static var txnId: Swift.String?
+  public static func getMandateCredentials(bankName: Swift.String, accountNumber: Swift.String, vpaAddress: Swift.String, payerName: Swift.String, payeeName: Swift.String, payeeVpa: Swift.String, transactionAmount: Swift.String, txnNote: Swift.String = "Mandate Payment", customTxnId: Swift.String? = nil, mobileNumber: Swift.String? = nil, completion: @escaping ([Swift.String : Any]?, Swift.String?, (any Swift.Error)?) -> Swift.Void)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc public class FundSourceProviderResponse : ObjectiveC.NSObject {
@@ -149,13 +152,20 @@ import _SwiftConcurrencyShims
     get
   }
 }
-@objc public class MandateTimeRange : ObjectiveC.NSObject, Swift.Codable {
-  final public let startAt: Swift.String?
-  final public let endAt: Swift.String?
-  public init(startAt: Swift.String?, endAt: Swift.String?)
+@objc @objcMembers public class MandateTimeRange : ObjectiveC.NSObject, Swift.Codable {
+  final public let startAt: Swift.Int?
+  final public let endAt: Swift.Int?
+  public init(startAt: Swift.Int?, endAt: Swift.Int?)
   required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
+}
+public class MandateResponseTimeRange : Swift.Codable {
+  final public let startAt: Swift.String?
+  final public let endAt: Swift.String?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers @objc public class LinkVPAResponse : ObjectiveC.NSObject {
   @objc public var fundSource: two_party.FundSource?
@@ -204,24 +214,26 @@ import _SwiftConcurrencyShims
   @objc deinit
 }
 @objc public class AutopayMandate : ObjectiveC.NSObject {
-  @objc public var umn: Swift.String
-  @objc public var amount: Swift.String
-  @objc public var amountRule: two_party.AmountRule
-  @objc public var payer: two_party.Payer
-  @objc public var payee: two_party.Payee
-  @objc public var name: Swift.String
-  @objc public var expireAt: Swift.String
-  @objc public var blockFund: Swift.Bool
-  @objc public var revocableByPayer: Swift.Bool
-  @objc public var recurrence: two_party.MandateRecurrenceInfo
-  @objc public var validity: two_party.MandateTimeRange
-  @objc public var upiReferenceCategory: two_party.UpiReferenceCategory
-  @objc public var upiReferenceUrl: Swift.String
-  @objc public var descriptionText: Swift.String?
-  @objc public var status: two_party.MandateStatus
-  @objc public var createdAt: Swift.String
+  public var umn: Swift.String
+  public var amount: Swift.Int
+  public var amountRule: two_party.AmountRule
+  public var payer: two_party.Payer
+  public var payee: two_party.Payee
+  public var name: Swift.String
+  public var expireAt: Swift.Int
+  public var blockFund: Swift.Bool
+  public var revocableByPayer: Swift.Bool
+  public var recurrence: two_party.MandateRecurrenceInfo
+  public var validity: two_party.MandateTimeRange
+  public var upiReferenceCategory: two_party.UpiReferenceCategory
+  public var upiReferenceUrl: Swift.String
+  public var descriptionText: Swift.String?
+  public var status: two_party.MandateStatus
+  public var createdAt: Swift.Int
   public var pause: two_party.MandateTimeRange?
-  public init(umn: Swift.String, amount: Swift.String, amountRule: two_party.AmountRule, payer: two_party.Payer, payee: two_party.Payee, name: Swift.String, expireAt: Swift.String, blockFund: Swift.Bool, revocableByPayer: Swift.Bool, recurrence: two_party.MandateRecurrenceInfo, validity: two_party.MandateTimeRange, upiReferenceCategory: two_party.UpiReferenceCategory, upiReferenceUrl: Swift.String, descriptionText: Swift.String?, status: two_party.MandateStatus, createdAt: Swift.String, pause: two_party.MandateTimeRange?)
+  public var upiTransactionId: Swift.String?
+  public var referenceId: Swift.String?
+  public init(umn: Swift.String, amount: Swift.Int, amountRule: two_party.AmountRule, payer: two_party.Payer, payee: two_party.Payee, name: Swift.String, expireAt: Swift.Int, blockFund: Swift.Bool, revocableByPayer: Swift.Bool, recurrence: two_party.MandateRecurrenceInfo, validity: two_party.MandateTimeRange, upiReferenceCategory: two_party.UpiReferenceCategory, upiReferenceUrl: Swift.String, descriptionText: Swift.String?, status: two_party.MandateStatus, createdAt: Swift.Int, pause: two_party.MandateTimeRange?, upiTransactionId: Swift.String?, referenceId: Swift.String?)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc public class RegisterResponse : ObjectiveC.NSObject {
@@ -419,17 +431,16 @@ public struct UpdateMandateRequestModel : Swift.Codable {
       get
     }
   }
-  public enum ValidationError : Swift.Error, Swift.CustomStringConvertible {
-    case invalidAction
-    case invalidPauseForAction
-    case missingRequiredParam(Swift.String)
-    case invalidTimeRange(Swift.String)
+  public enum UpdateMandateValidationError : Swift.Error, Swift.CustomStringConvertible {
+    case missingRequiredField(Swift.String)
+    case invalidField(Swift.String)
+    case unknown
     public var description: Swift.String {
       get
     }
   }
-  public let amount: Swift.String?
-  public let expireAt: Swift.String?
+  public let amount: Swift.Int?
+  public let expireAt: Swift.Int?
   public let action: two_party.UpdateMandateRequestModel.Action
   public let validity: two_party.MandateTimeRange?
   public let pause: two_party.MandateTimeRange?
@@ -572,11 +583,11 @@ public struct CreateMandateRequestModel : Swift.Codable {
     }
     public static func == (a: two_party.CreateMandateRequestModel.CreateMandateRequestError, b: two_party.CreateMandateRequestModel.CreateMandateRequestError) -> Swift.Bool
   }
-  public let amount: Swift.String
+  public let amount: Swift.Int
   public let amountRule: Swift.String
   public let name: Swift.String
   public let description: Swift.String
-  public let expireAt: Swift.String
+  public let expireAt: Swift.Int
   public let blockFund: Swift.Bool
   public let revocableByPayer: Swift.Bool
   public let recurrence: two_party.MandateRecurrenceInfo
@@ -608,7 +619,8 @@ public struct CreateMandateRequestModel : Swift.Codable {
 @objc public class Payer : ObjectiveC.NSObject {
   @objc public var fundSource: two_party.FundSource?
   @objc public var vpa: Swift.String?
-  public init(fundSource: two_party.FundSource? = nil, vpa: Swift.String? = nil)
+  @objc public var name: Swift.String?
+  public init(fundSource: two_party.FundSource? = nil, vpa: Swift.String? = nil, name: Swift.String? = nil)
   @objc deinit
 }
 public enum MandateRecurrenceRule : Swift.Int, Swift.Codable {
