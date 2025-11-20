@@ -25942,6 +25942,41 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "paymentFooterManager",
+            "printedName": "paymentFooterManager",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RazorpayTurboUPIUI.PaymentFooterManager?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentFooterManager",
+                    "printedName": "RazorpayTurboUPIUI.PaymentFooterManager",
+                    "usr": "s:18RazorpayTurboUPIUI20PaymentFooterManagerC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI28ValidateNumberViewControllerC20paymentFooterManager33_1ED913CD54816BE9C2C285709D4748EELLAA07PaymentiJ0CSgvp",
+            "mangledName": "$s18RazorpayTurboUPIUI28ValidateNumberViewControllerC20paymentFooterManager33_1ED913CD54816BE9C2C285709D4748EELLAA07PaymentiJ0CSgvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 4,
+            "hasStorage": true
+          },
+          {
             "kind": "Function",
             "name": "viewDidLoad",
             "printedName": "viewDidLoad()",
@@ -26117,6 +26152,39 @@
             "declAttributes": [
               "Preconcurrency",
               "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidDisappear",
+            "printedName": "viewDidDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@RazorpayTurboUPIUI@objc(cs)ValidateNumberViewController(im)viewDidDisappear:",
+            "mangledName": "$s18RazorpayTurboUPIUI28ValidateNumberViewControllerC16viewDidDisappearyySbF",
+            "moduleName": "RazorpayTurboUPIUI",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidDisappear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -38772,6 +38840,405 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "RazorpayTurboUPIUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "RazorpayTurboUPIUI"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PaymentFooterManager",
+        "printedName": "PaymentFooterManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "paymentFooterRootView",
+            "printedName": "paymentFooterRootView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyView",
+                "printedName": "SwiftUI.AnyView",
+                "usr": "s:7SwiftUI7AnyViewV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI20PaymentFooterManagerC07paymentE8RootView33_365F09F4F43F9B4C9B7E391E63079952LL7SwiftUI03AnyI0Vvp",
+            "mangledName": "$s18RazorpayTurboUPIUI20PaymentFooterManagerC07paymentE8RootView33_365F09F4F43F9B4C9B7E391E63079952LL7SwiftUI03AnyI0Vvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "isInternal": true,
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "parentViewController",
+            "printedName": "parentViewController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UIViewController?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI20PaymentFooterManagerC20parentViewController33_365F09F4F43F9B4C9B7E391E63079952LLSo06UIViewI0CSgvp",
+            "mangledName": "$s18RazorpayTurboUPIUI20PaymentFooterManagerC20parentViewController33_365F09F4F43F9B4C9B7E391E63079952LLSo06UIViewI0CSgvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "ownership": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "paymentFooterHostingController",
+            "printedName": "paymentFooterHostingController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI20PaymentFooterManagerC07paymentE17HostingController33_365F09F4F43F9B4C9B7E391E63079952LLSo06UIViewI0CSgvp",
+            "mangledName": "$s18RazorpayTurboUPIUI20PaymentFooterManagerC07paymentE17HostingController33_365F09F4F43F9B4C9B7E391E63079952LLSo06UIViewI0CSgvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "scrollableView",
+            "printedName": "scrollableView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI20PaymentFooterManagerC14scrollableView33_365F09F4F43F9B4C9B7E391E63079952LLSo6UIViewCSgvp",
+            "mangledName": "$s18RazorpayTurboUPIUI20PaymentFooterManagerC14scrollableView33_365F09F4F43F9B4C9B7E391E63079952LLSo6UIViewCSgvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 3,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "originalBottomConstraint",
+            "printedName": "originalBottomConstraint",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.NSLayoutConstraint?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSLayoutConstraint",
+                    "printedName": "UIKit.NSLayoutConstraint",
+                    "usr": "c:objc(cs)NSLayoutConstraint"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI20PaymentFooterManagerC24originalBottomConstraint33_365F09F4F43F9B4C9B7E391E63079952LLSo08NSLayoutI0CSgvp",
+            "mangledName": "$s18RazorpayTurboUPIUI20PaymentFooterManagerC24originalBottomConstraint33_365F09F4F43F9B4C9B7E391E63079952LLSo08NSLayoutI0CSgvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 4,
+            "hasStorage": true
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(parentViewController:paymentFooterRootView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentFooterManager",
+                "printedName": "RazorpayTurboUPIUI.PaymentFooterManager",
+                "usr": "s:18RazorpayTurboUPIUI20PaymentFooterManagerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18RazorpayTurboUPIUI20PaymentFooterManagerC20parentViewController07paymente4RootH0ACSo06UIViewI0C_xtc7SwiftUI0H0Rzlufc",
+            "mangledName": "$s18RazorpayTurboUPIUI20PaymentFooterManagerC20parentViewController07paymente4RootH0ACSo06UIViewI0C_xtc7SwiftUI0H0Rzlufc",
+            "moduleName": "RazorpayTurboUPIUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setupPaymentFooter",
+            "printedName": "setupPaymentFooter(adjustConstraintsFor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18RazorpayTurboUPIUI20PaymentFooterManagerC05setupdE020adjustConstraintsForySo6UIViewCSg_tF",
+            "mangledName": "$s18RazorpayTurboUPIUI20PaymentFooterManagerC05setupdE020adjustConstraintsForySo6UIViewCSg_tF",
+            "moduleName": "RazorpayTurboUPIUI",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setupPaymentFooterCentered",
+            "printedName": "setupPaymentFooterCentered(centeredWith:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18RazorpayTurboUPIUI20PaymentFooterManagerC05setupdE8Centered12centeredWithySo6UIViewC_tF",
+            "mangledName": "$s18RazorpayTurboUPIUI20PaymentFooterManagerC05setupdE8Centered12centeredWithySo6UIViewC_tF",
+            "moduleName": "RazorpayTurboUPIUI",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setupPaymentFooterInStackView",
+            "printedName": "setupPaymentFooterInStackView(replaceView:height:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18RazorpayTurboUPIUI20PaymentFooterManagerC05setupdE11InStackView07replaceJ06heightySo6UIViewC_14CoreFoundation7CGFloatVtF",
+            "mangledName": "$s18RazorpayTurboUPIUI20PaymentFooterManagerC05setupdE11InStackView07replaceJ06heightySo6UIViewC_12CoreGraphics7CGFloatVtF",
+            "moduleName": "RazorpayTurboUPIUI",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cleanupPaymentFooter",
+            "printedName": "cleanupPaymentFooter()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18RazorpayTurboUPIUI20PaymentFooterManagerC07cleanupdE0yyF",
+            "mangledName": "$s18RazorpayTurboUPIUI20PaymentFooterManagerC07cleanupdE0yyF",
+            "moduleName": "RazorpayTurboUPIUI",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hidePaymentFooter",
+            "printedName": "hidePaymentFooter(animated:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18RazorpayTurboUPIUI20PaymentFooterManagerC04hidedE08animatedySb_tF",
+            "mangledName": "$s18RazorpayTurboUPIUI20PaymentFooterManagerC04hidedE08animatedySb_tF",
+            "moduleName": "RazorpayTurboUPIUI",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showPaymentFooter",
+            "printedName": "showPaymentFooter(animated:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18RazorpayTurboUPIUI20PaymentFooterManagerC04showdE08animatedySb_tF",
+            "mangledName": "$s18RazorpayTurboUPIUI20PaymentFooterManagerC04showdE08animatedySb_tF",
+            "moduleName": "RazorpayTurboUPIUI",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18RazorpayTurboUPIUI20PaymentFooterManagerC",
+        "mangledName": "$s18RazorpayTurboUPIUI20PaymentFooterManagerC",
+        "moduleName": "RazorpayTurboUPIUI",
+        "isOpen": true,
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -61285,6 +61752,41 @@
             "hasStorage": true
           },
           {
+            "kind": "Var",
+            "name": "paymentFooterManager",
+            "printedName": "paymentFooterManager",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RazorpayTurboUPIUI.PaymentFooterManager?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentFooterManager",
+                    "printedName": "RazorpayTurboUPIUI.PaymentFooterManager",
+                    "usr": "s:18RazorpayTurboUPIUI20PaymentFooterManagerC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI24CardDetailViewControllerC20paymentFooterManager33_FA7E58F8D3C3DE863F07036FC97AC2C0LLAA07PaymentiJ0CSgvp",
+            "mangledName": "$s18RazorpayTurboUPIUI24CardDetailViewControllerC20paymentFooterManager33_FA7E58F8D3C3DE863F07036FC97AC2C0LLAA07PaymentiJ0CSgvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 14,
+            "hasStorage": true
+          },
+          {
             "kind": "Function",
             "name": "viewDidLoad",
             "printedName": "viewDidLoad()",
@@ -61335,6 +61837,39 @@
             "overriding": true,
             "isOpen": true,
             "objc_name": "viewDidAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillDisappear",
+            "printedName": "viewWillDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@RazorpayTurboUPIUI@objc(cs)CardDetailViewController(im)viewWillDisappear:",
+            "mangledName": "$s18RazorpayTurboUPIUI24CardDetailViewControllerC17viewWillDisappearyySbF",
+            "moduleName": "RazorpayTurboUPIUI",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewWillDisappear:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -69332,6 +69867,452 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "RazorpayTurboUPIUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LogoItem",
+        "printedName": "LogoItem",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI8LogoItemV2id10Foundation4UUIDVvp",
+            "mangledName": "$s18RazorpayTurboUPIUI8LogoItemV2id10Foundation4UUIDVvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI8LogoItemV2id10Foundation4UUIDVvg",
+                "mangledName": "$s18RazorpayTurboUPIUI8LogoItemV2id10Foundation4UUIDVvg",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "urlString",
+            "printedName": "urlString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI8LogoItemV9urlStringSSSgvp",
+            "mangledName": "$s18RazorpayTurboUPIUI8LogoItemV9urlStringSSSgvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI8LogoItemV9urlStringSSSgvg",
+                "mangledName": "$s18RazorpayTurboUPIUI8LogoItemV9urlStringSSSgvg",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "width",
+            "printedName": "width",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI8LogoItemV5width14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s18RazorpayTurboUPIUI8LogoItemV5width12CoreGraphics7CGFloatVvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI8LogoItemV5width14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s18RazorpayTurboUPIUI8LogoItemV5width12CoreGraphics7CGFloatVvg",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "height",
+            "printedName": "height",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI8LogoItemV6height14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s18RazorpayTurboUPIUI8LogoItemV6height12CoreGraphics7CGFloatVvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 3,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI8LogoItemV6height14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s18RazorpayTurboUPIUI8LogoItemV6height12CoreGraphics7CGFloatVvg",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "prefixText",
+            "printedName": "prefixText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI8LogoItemV10prefixTextSSSgvp",
+            "mangledName": "$s18RazorpayTurboUPIUI8LogoItemV10prefixTextSSSgvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 4,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI8LogoItemV10prefixTextSSSgvg",
+                "mangledName": "$s18RazorpayTurboUPIUI8LogoItemV10prefixTextSSSgvg",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isRazorpay",
+            "printedName": "isRazorpay",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI8LogoItemV02isA0Sbvp",
+            "mangledName": "$s18RazorpayTurboUPIUI8LogoItemV02isA0Sbvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 5,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI8LogoItemV02isA0Sbvg",
+                "mangledName": "$s18RazorpayTurboUPIUI8LogoItemV02isA0Sbvg",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(urlString:width:height:prefixText:isRazorpay:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LogoItem",
+                "printedName": "RazorpayTurboUPIUI.LogoItem",
+                "usr": "s:18RazorpayTurboUPIUI8LogoItemV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18RazorpayTurboUPIUI8LogoItemV9urlString5width6height10prefixText02isA0ACSSSg_14CoreFoundation7CGFloatVAlISbtcfc",
+            "mangledName": "$s18RazorpayTurboUPIUI8LogoItemV9urlString5width6height10prefixText02isA0ACSSSg_12CoreGraphics7CGFloatVAlISbtcfc",
+            "moduleName": "RazorpayTurboUPIUI",
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18RazorpayTurboUPIUI8LogoItemV",
+        "mangledName": "$s18RazorpayTurboUPIUI8LogoItemV",
+        "moduleName": "RazorpayTurboUPIUI",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "RazorpayTurboUPIUI"
       },
       {
@@ -70159,6 +71140,199 @@
         "declKind": "Class",
         "usr": "s:18RazorpayTurboUPIUI16TwoPartySDKUtilsC",
         "mangledName": "$s18RazorpayTurboUPIUI16TwoPartySDKUtilsC",
+        "moduleName": "RazorpayTurboUPIUI",
+        "isOpen": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "RazorpayTurboUPIUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ImageCacheManager",
+        "printedName": "ImageCacheManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageCacheManager",
+                "printedName": "RazorpayTurboUPIUI.ImageCacheManager",
+                "usr": "s:18RazorpayTurboUPIUI17ImageCacheManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI17ImageCacheManagerC6sharedACvpZ",
+            "mangledName": "$s18RazorpayTurboUPIUI17ImageCacheManagerC6sharedACvpZ",
+            "moduleName": "RazorpayTurboUPIUI",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageCacheManager",
+                    "printedName": "RazorpayTurboUPIUI.ImageCacheManager",
+                    "usr": "s:18RazorpayTurboUPIUI17ImageCacheManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI17ImageCacheManagerC6sharedACvgZ",
+                "mangledName": "$s18RazorpayTurboUPIUI17ImageCacheManagerC6sharedACvgZ",
+                "moduleName": "RazorpayTurboUPIUI",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cache",
+            "printedName": "cache",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSCache",
+                "printedName": "Foundation.NSCache<Foundation.NSURL, UIKit.UIImage>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSURL",
+                    "printedName": "Foundation.NSURL",
+                    "usr": "c:objc(cs)NSURL"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "c:objc(cs)NSCache"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI17ImageCacheManagerC5cache33_5CA7C7C972957DD02E3B9EA189BB9400LLSo7NSCacheCySo5NSURLCSo7UIImageCGvp",
+            "mangledName": "$s18RazorpayTurboUPIUI17ImageCacheManagerC5cache33_5CA7C7C972957DD02E3B9EA189BB9400LLSo7NSCacheCySo5NSURLCSo7UIImageCGvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Function",
+            "name": "getImage",
+            "printedName": "getImage(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18RazorpayTurboUPIUI17ImageCacheManagerC03getD03forSo7UIImageCSg10Foundation3URLV_tF",
+            "mangledName": "$s18RazorpayTurboUPIUI17ImageCacheManagerC03getD03forSo7UIImageCSg10Foundation3URLV_tF",
+            "moduleName": "RazorpayTurboUPIUI",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setImage",
+            "printedName": "setImage(_:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18RazorpayTurboUPIUI17ImageCacheManagerC03setD0_3forySo7UIImageC_10Foundation3URLVtF",
+            "mangledName": "$s18RazorpayTurboUPIUI17ImageCacheManagerC03setD0_3forySo7UIImageC_10Foundation3URLVtF",
+            "moduleName": "RazorpayTurboUPIUI",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18RazorpayTurboUPIUI17ImageCacheManagerC",
+        "mangledName": "$s18RazorpayTurboUPIUI17ImageCacheManagerC",
         "moduleName": "RazorpayTurboUPIUI",
         "isOpen": true,
         "conformances": [
@@ -74378,6 +75552,661 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "RazorpayTurboUPIUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CachedImageLoader",
+        "printedName": "CachedImageLoader",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "image",
+            "printedName": "image",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI17CachedImageLoaderC5imageSo7UIImageCSgvp",
+            "mangledName": "$s18RazorpayTurboUPIUI17CachedImageLoaderC5imageSo7UIImageCSgvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "ProjectedValueProperty",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI17CachedImageLoaderC5imageSo7UIImageCSgvg",
+                "mangledName": "$s18RazorpayTurboUPIUI17CachedImageLoaderC5imageSo7UIImageCSgvg",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI17CachedImageLoaderC5imageSo7UIImageCSgvs",
+                "mangledName": "$s18RazorpayTurboUPIUI17CachedImageLoaderC5imageSo7UIImageCSgvs",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "isOpen": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI17CachedImageLoaderC5imageSo7UIImageCSgvM",
+                "mangledName": "$s18RazorpayTurboUPIUI17CachedImageLoaderC5imageSo7UIImageCSgvM",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "isOpen": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$image",
+            "printedName": "$image",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Optional<UIKit.UIImage>>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI17CachedImageLoaderC6$image7Combine9PublishedV9PublisherVySo7UIImageCSg_Gvp",
+            "mangledName": "$s18RazorpayTurboUPIUI17CachedImageLoaderC6$image7Combine9PublishedV9PublisherVySo7UIImageCSg_Gvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "implicit": true,
+            "isOpen": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<UIKit.UIImage>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI17CachedImageLoaderC6$image7Combine9PublishedV9PublisherVySo7UIImageCSg_Gvg",
+                "mangledName": "$s18RazorpayTurboUPIUI17CachedImageLoaderC6$image7Combine9PublishedV9PublisherVySo7UIImageCSg_Gvg",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<UIKit.UIImage>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI17CachedImageLoaderC6$image7Combine9PublishedV9PublisherVySo7UIImageCSg_Gvs",
+                "mangledName": "$s18RazorpayTurboUPIUI17CachedImageLoaderC6$image7Combine9PublishedV9PublisherVySo7UIImageCSg_Gvs",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "isOpen": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI17CachedImageLoaderC6$image7Combine9PublishedV9PublisherVySo7UIImageCSg_GvM",
+                "mangledName": "$s18RazorpayTurboUPIUI17CachedImageLoaderC6$image7Combine9PublishedV9PublisherVySo7UIImageCSg_GvM",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "isOpen": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "_image",
+            "printedName": "_image",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Published",
+                "printedName": "Combine.Published<UIKit.UIImage?>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:7Combine9PublishedV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI17CachedImageLoaderC6_image33_07838C6D73C5C9BCB39730F37B49FF35LL7Combine9PublishedVySo7UIImageCSgGvp",
+            "mangledName": "$s18RazorpayTurboUPIUI17CachedImageLoaderC6_image33_07838C6D73C5C9BCB39730F37B49FF35LL7Combine9PublishedVySo7UIImageCSgGvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "isLoaded",
+            "printedName": "isLoaded",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI17CachedImageLoaderC8isLoadedSbvp",
+            "mangledName": "$s18RazorpayTurboUPIUI17CachedImageLoaderC8isLoadedSbvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "ProjectedValueProperty",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI17CachedImageLoaderC8isLoadedSbvg",
+                "mangledName": "$s18RazorpayTurboUPIUI17CachedImageLoaderC8isLoadedSbvg",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI17CachedImageLoaderC8isLoadedSbvs",
+                "mangledName": "$s18RazorpayTurboUPIUI17CachedImageLoaderC8isLoadedSbvs",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "isOpen": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI17CachedImageLoaderC8isLoadedSbvM",
+                "mangledName": "$s18RazorpayTurboUPIUI17CachedImageLoaderC8isLoadedSbvM",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "isOpen": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$isLoaded",
+            "printedName": "$isLoaded",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI17CachedImageLoaderC9$isLoaded7Combine9PublishedV9PublisherVySb_Gvp",
+            "mangledName": "$s18RazorpayTurboUPIUI17CachedImageLoaderC9$isLoaded7Combine9PublishedV9PublisherVySb_Gvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "implicit": true,
+            "isOpen": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI17CachedImageLoaderC9$isLoaded7Combine9PublishedV9PublisherVySb_Gvg",
+                "mangledName": "$s18RazorpayTurboUPIUI17CachedImageLoaderC9$isLoaded7Combine9PublishedV9PublisherVySb_Gvg",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI17CachedImageLoaderC9$isLoaded7Combine9PublishedV9PublisherVySb_Gvs",
+                "mangledName": "$s18RazorpayTurboUPIUI17CachedImageLoaderC9$isLoaded7Combine9PublishedV9PublisherVySb_Gvs",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "isOpen": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI17CachedImageLoaderC9$isLoaded7Combine9PublishedV9PublisherVySb_GvM",
+                "mangledName": "$s18RazorpayTurboUPIUI17CachedImageLoaderC9$isLoaded7Combine9PublishedV9PublisherVySb_GvM",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "isOpen": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "_isLoaded",
+            "printedName": "_isLoaded",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Published",
+                "printedName": "Combine.Published<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7Combine9PublishedV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI17CachedImageLoaderC9_isLoaded33_07838C6D73C5C9BCB39730F37B49FF35LL7Combine9PublishedVySbGvp",
+            "mangledName": "$s18RazorpayTurboUPIUI17CachedImageLoaderC9_isLoaded33_07838C6D73C5C9BCB39730F37B49FF35LL7Combine9PublishedVySbGvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18RazorpayTurboUPIUI17CachedImageLoaderC4load4fromy10Foundation3URLV_tYaF",
+            "mangledName": "$s18RazorpayTurboUPIUI17CachedImageLoaderC4load4fromy10Foundation3URLV_tYaF",
+            "moduleName": "RazorpayTurboUPIUI",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CachedImageLoader",
+                "printedName": "RazorpayTurboUPIUI.CachedImageLoader",
+                "usr": "s:18RazorpayTurboUPIUI17CachedImageLoaderC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18RazorpayTurboUPIUI17CachedImageLoaderCACycfc",
+            "mangledName": "$s18RazorpayTurboUPIUI17CachedImageLoaderCACycfc",
+            "moduleName": "RazorpayTurboUPIUI",
+            "implicit": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18RazorpayTurboUPIUI17CachedImageLoaderC",
+        "mangledName": "$s18RazorpayTurboUPIUI17CachedImageLoaderC",
+        "moduleName": "RazorpayTurboUPIUI",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -103716,6 +105545,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "RazorpayTurboUPIUI"
+      },
+      {
         "kind": "TypeDecl",
         "name": "BankAccountViewController",
         "printedName": "BankAccountViewController",
@@ -106643,6 +108479,41 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "paymentFooterManager",
+            "printedName": "paymentFooterManager",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RazorpayTurboUPIUI.PaymentFooterManager?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentFooterManager",
+                    "printedName": "RazorpayTurboUPIUI.PaymentFooterManager",
+                    "usr": "s:18RazorpayTurboUPIUI20PaymentFooterManagerC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI25BankAccountViewControllerC20paymentFooterManager33_C902C56818214A12ACBCF60865308CABLLAA07PaymentiJ0CSgvp",
+            "mangledName": "$s18RazorpayTurboUPIUI25BankAccountViewControllerC20paymentFooterManager33_C902C56818214A12ACBCF60865308CABLLAA07PaymentiJ0CSgvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 23,
+            "hasStorage": true
+          },
+          {
             "kind": "Function",
             "name": "viewDidLoad",
             "printedName": "viewDidLoad()",
@@ -106705,6 +108576,28 @@
             "declKind": "Func",
             "usr": "s:18RazorpayTurboUPIUI25BankAccountViewControllerC013registerTableF0yyF",
             "mangledName": "$s18RazorpayTurboUPIUI25BankAccountViewControllerC013registerTableF0yyF",
+            "moduleName": "RazorpayTurboUPIUI",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setupPaymentFooter",
+            "printedName": "setupPaymentFooter()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18RazorpayTurboUPIUI25BankAccountViewControllerC18setupPaymentFooteryyF",
+            "mangledName": "$s18RazorpayTurboUPIUI25BankAccountViewControllerC18setupPaymentFooteryyF",
             "moduleName": "RazorpayTurboUPIUI",
             "isOpen": true,
             "declAttributes": [
@@ -109588,6 +111481,501 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "RazorpayTurboUPIUI"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "RazorpayTurboUPIUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CachedImageView",
+        "printedName": "CachedImageView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "_loader",
+            "printedName": "_loader",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StateObject",
+                "printedName": "SwiftUI.StateObject<RazorpayTurboUPIUI.CachedImageLoader>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CachedImageLoader",
+                    "printedName": "RazorpayTurboUPIUI.CachedImageLoader",
+                    "usr": "s:18RazorpayTurboUPIUI17CachedImageLoaderC"
+                  }
+                ],
+                "usr": "s:7SwiftUI11StateObjectV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI15CachedImageViewV7_loader33_78602B0082BA5CE2E6C256C0185CF78ALL7SwiftUI11StateObjectVyAA0dE6LoaderCGvp",
+            "mangledName": "$s18RazorpayTurboUPIUI15CachedImageViewV7_loader33_78602B0082BA5CE2E6C256C0185CF78ALL7SwiftUI11StateObjectVyAA0dE6LoaderCGvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "url",
+            "printedName": "url",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI15CachedImageViewV3url10Foundation3URLVSgvp",
+            "mangledName": "$s18RazorpayTurboUPIUI15CachedImageViewV3url10Foundation3URLVSgvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI15CachedImageViewV3url10Foundation3URLVSgvg",
+                "mangledName": "$s18RazorpayTurboUPIUI15CachedImageViewV3url10Foundation3URLVSgvg",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "width",
+            "printedName": "width",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI15CachedImageViewV5width14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s18RazorpayTurboUPIUI15CachedImageViewV5width12CoreGraphics7CGFloatVvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI15CachedImageViewV5width14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s18RazorpayTurboUPIUI15CachedImageViewV5width12CoreGraphics7CGFloatVvg",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "height",
+            "printedName": "height",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI15CachedImageViewV6height14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s18RazorpayTurboUPIUI15CachedImageViewV6height12CoreGraphics7CGFloatVvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 3,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI15CachedImageViewV6height14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s18RazorpayTurboUPIUI15CachedImageViewV6height12CoreGraphics7CGFloatVvg",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onLoad",
+            "printedName": "onLoad",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI15CachedImageViewV6onLoadySbcSgvp",
+            "mangledName": "$s18RazorpayTurboUPIUI15CachedImageViewV6onLoadySbcSgvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 4,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Bool) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Bool) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI15CachedImageViewV6onLoadySbcSgvg",
+                "mangledName": "$s18RazorpayTurboUPIUI15CachedImageViewV6onLoadySbcSgvg",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI15CachedImageViewV4bodyQrvp",
+            "mangledName": "$s18RazorpayTurboUPIUI15CachedImageViewV4bodyQrvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI15CachedImageViewV4bodyQrvg",
+                "mangledName": "$s18RazorpayTurboUPIUI15CachedImageViewV4bodyQrvg",
+                "moduleName": "RazorpayTurboUPIUI",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(url:width:height:onLoad:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CachedImageView",
+                "printedName": "RazorpayTurboUPIUI.CachedImageView",
+                "usr": "s:18RazorpayTurboUPIUI15CachedImageViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18RazorpayTurboUPIUI15CachedImageViewV3url5width6height6onLoadAC10Foundation3URLVSg_04CoreL07CGFloatVANySbcSgtcfc",
+            "mangledName": "$s18RazorpayTurboUPIUI15CachedImageViewV3url5width6height6onLoadAC10Foundation3URLVSg_12CoreGraphics7CGFloatVANySbcSgtcfc",
+            "moduleName": "RazorpayTurboUPIUI",
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18RazorpayTurboUPIUI15CachedImageViewV",
+        "mangledName": "$s18RazorpayTurboUPIUI15CachedImageViewV",
+        "moduleName": "RazorpayTurboUPIUI",
+        "intro_iOS": "16.0",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "Available"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -116516,6 +118904,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "RazorpayTurboUPIUI"
+      },
+      {
         "kind": "TypeDecl",
         "name": "AccountVpaListViewController",
         "printedName": "AccountVpaListViewController",
@@ -117058,6 +119453,41 @@
                 "accessorKind": "_modify"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "paymentFooterManager",
+            "printedName": "paymentFooterManager",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RazorpayTurboUPIUI.PaymentFooterManager?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentFooterManager",
+                    "printedName": "RazorpayTurboUPIUI.PaymentFooterManager",
+                    "usr": "s:18RazorpayTurboUPIUI20PaymentFooterManagerC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI28AccountVpaListViewControllerC20paymentFooterManager33_EBFC2B084D79FC428FB96C983524AD2ELLAA07PaymentjK0CSgvp",
+            "mangledName": "$s18RazorpayTurboUPIUI28AccountVpaListViewControllerC20paymentFooterManager33_EBFC2B084D79FC428FB96C983524AD2ELLAA07PaymentjK0CSgvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 7,
+            "hasStorage": true
           },
           {
             "kind": "Function",
@@ -139514,6 +141944,41 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "paymentFooterManager",
+            "printedName": "paymentFooterManager",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RazorpayTurboUPIUI.PaymentFooterManager?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentFooterManager",
+                    "printedName": "RazorpayTurboUPIUI.PaymentFooterManager",
+                    "usr": "s:18RazorpayTurboUPIUI20PaymentFooterManagerC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI0B23UpiLoaderViewControllerC20paymentFooterManager33_89725BF23390FD434EB7C80FBC9F107ALLAA07PaymentiJ0CSgvp",
+            "mangledName": "$s18RazorpayTurboUPIUI0B23UpiLoaderViewControllerC20paymentFooterManager33_89725BF23390FD434EB7C80FBC9F107ALLAA07PaymentiJ0CSgvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 5,
+            "hasStorage": true
+          },
+          {
             "kind": "Function",
             "name": "viewDidLoad",
             "printedName": "viewDidLoad()",
@@ -139531,6 +141996,39 @@
             "overriding": true,
             "isOpen": true,
             "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidDisappear",
+            "printedName": "viewDidDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@RazorpayTurboUPIUI@objc(cs)TurboUpiLoaderViewController(im)viewDidDisappear:",
+            "mangledName": "$s18RazorpayTurboUPIUI0B23UpiLoaderViewControllerC16viewDidDisappearyySbF",
+            "moduleName": "RazorpayTurboUPIUI",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidDisappear:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -142732,6 +145230,41 @@
                 "accessorKind": "_modify"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "paymentFooterManager",
+            "printedName": "paymentFooterManager",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RazorpayTurboUPIUI.PaymentFooterManager?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentFooterManager",
+                    "printedName": "RazorpayTurboUPIUI.PaymentFooterManager",
+                    "usr": "s:18RazorpayTurboUPIUI20PaymentFooterManagerC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI27ManageAccountViewControllerC20paymentFooterManager33_07759748A6570EBFD8845F495BC39D25LLAA07PaymentiJ0CSgvp",
+            "mangledName": "$s18RazorpayTurboUPIUI27ManageAccountViewControllerC20paymentFooterManager33_07759748A6570EBFD8845F495BC39D25LLAA07PaymentiJ0CSgvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 24,
+            "hasStorage": true
           },
           {
             "kind": "Function",
@@ -165424,6 +167957,766 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "RazorpayTurboUPIUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PaymentMethodsFooter",
+        "printedName": "PaymentMethodsFooter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "logoItems",
+            "printedName": "logoItems",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[RazorpayTurboUPIUI.LogoItem]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogoItem",
+                    "printedName": "RazorpayTurboUPIUI.LogoItem",
+                    "usr": "s:18RazorpayTurboUPIUI8LogoItemV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI20PaymentMethodsFooterV9logoItemsSayAA8LogoItemVGvp",
+            "mangledName": "$s18RazorpayTurboUPIUI20PaymentMethodsFooterV9logoItemsSayAA8LogoItemVGvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[RazorpayTurboUPIUI.LogoItem]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogoItem",
+                        "printedName": "RazorpayTurboUPIUI.LogoItem",
+                        "usr": "s:18RazorpayTurboUPIUI8LogoItemV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI20PaymentMethodsFooterV9logoItemsSayAA8LogoItemVGvg",
+                "mangledName": "$s18RazorpayTurboUPIUI20PaymentMethodsFooterV9logoItemsSayAA8LogoItemVGvg",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "_loadedImages",
+            "printedName": "_loadedImages",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "State",
+                "printedName": "SwiftUI.State<Swift.Set<Foundation.UUID>>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<Foundation.UUID>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UUID",
+                        "printedName": "Foundation.UUID",
+                        "usr": "s:10Foundation4UUIDV"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "usr": "s:7SwiftUI5StateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI20PaymentMethodsFooterV13_loadedImages33_AAC5150DD814A2B8751843954E0AC0FDLL7SwiftUI5StateVyShy10Foundation4UUIDVGGvp",
+            "mangledName": "$s18RazorpayTurboUPIUI20PaymentMethodsFooterV13_loadedImages33_AAC5150DD814A2B8751843954E0AC0FDLL7SwiftUI5StateVyShy10Foundation4UUIDVGGvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Function",
+            "name": "getDefaultItems",
+            "printedName": "getDefaultItems()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[RazorpayTurboUPIUI.LogoItem]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogoItem",
+                    "printedName": "RazorpayTurboUPIUI.LogoItem",
+                    "usr": "s:18RazorpayTurboUPIUI8LogoItemV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18RazorpayTurboUPIUI20PaymentMethodsFooterV15getDefaultItemsSayAA8LogoItemVGyFZ",
+            "mangledName": "$s18RazorpayTurboUPIUI20PaymentMethodsFooterV15getDefaultItemsSayAA8LogoItemVGyFZ",
+            "moduleName": "RazorpayTurboUPIUI",
+            "static": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI20PaymentMethodsFooterV4bodyQrvp",
+            "mangledName": "$s18RazorpayTurboUPIUI20PaymentMethodsFooterV4bodyQrvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI20PaymentMethodsFooterV4bodyQrvg",
+                "mangledName": "$s18RazorpayTurboUPIUI20PaymentMethodsFooterV4bodyQrvg",
+                "moduleName": "RazorpayTurboUPIUI",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(logoItems:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentMethodsFooter",
+                "printedName": "RazorpayTurboUPIUI.PaymentMethodsFooter",
+                "usr": "s:18RazorpayTurboUPIUI20PaymentMethodsFooterV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[RazorpayTurboUPIUI.LogoItem]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogoItem",
+                    "printedName": "RazorpayTurboUPIUI.LogoItem",
+                    "usr": "s:18RazorpayTurboUPIUI8LogoItemV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18RazorpayTurboUPIUI20PaymentMethodsFooterV9logoItemsACSayAA8LogoItemVG_tcfc",
+            "mangledName": "$s18RazorpayTurboUPIUI20PaymentMethodsFooterV9logoItemsACSayAA8LogoItemVG_tcfc",
+            "moduleName": "RazorpayTurboUPIUI",
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18RazorpayTurboUPIUI20PaymentMethodsFooterV",
+        "mangledName": "$s18RazorpayTurboUPIUI20PaymentMethodsFooterV",
+        "moduleName": "RazorpayTurboUPIUI",
+        "intro_iOS": "16.0",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "Available"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LogoView",
+        "printedName": "LogoView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "urlString",
+            "printedName": "urlString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI8LogoViewV9urlStringSSSgvp",
+            "mangledName": "$s18RazorpayTurboUPIUI8LogoViewV9urlStringSSSgvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI8LogoViewV9urlStringSSSgvg",
+                "mangledName": "$s18RazorpayTurboUPIUI8LogoViewV9urlStringSSSgvg",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "width",
+            "printedName": "width",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI8LogoViewV5width14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s18RazorpayTurboUPIUI8LogoViewV5width12CoreGraphics7CGFloatVvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI8LogoViewV5width14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s18RazorpayTurboUPIUI8LogoViewV5width12CoreGraphics7CGFloatVvg",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "height",
+            "printedName": "height",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI8LogoViewV6height14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s18RazorpayTurboUPIUI8LogoViewV6height12CoreGraphics7CGFloatVvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI8LogoViewV6height14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s18RazorpayTurboUPIUI8LogoViewV6height12CoreGraphics7CGFloatVvg",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onLoad",
+            "printedName": "onLoad",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI8LogoViewV6onLoadySbcSgvp",
+            "mangledName": "$s18RazorpayTurboUPIUI8LogoViewV6onLoadySbcSgvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 3,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Bool) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Bool) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI8LogoViewV6onLoadySbcSgvg",
+                "mangledName": "$s18RazorpayTurboUPIUI8LogoViewV6onLoadySbcSgvg",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(urlString:width:height:onLoad:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LogoView",
+                "printedName": "RazorpayTurboUPIUI.LogoView",
+                "usr": "s:18RazorpayTurboUPIUI8LogoViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18RazorpayTurboUPIUI8LogoViewV9urlString5width6height6onLoadACSSSg_14CoreFoundation7CGFloatVAKySbcSgtcfc",
+            "mangledName": "$s18RazorpayTurboUPIUI8LogoViewV9urlString5width6height6onLoadACSSSg_12CoreGraphics7CGFloatVAKySbcSgtcfc",
+            "moduleName": "RazorpayTurboUPIUI",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI8LogoViewV4bodyQrvp",
+            "mangledName": "$s18RazorpayTurboUPIUI8LogoViewV4bodyQrvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI8LogoViewV4bodyQrvg",
+                "mangledName": "$s18RazorpayTurboUPIUI8LogoViewV4bodyQrvg",
+                "moduleName": "RazorpayTurboUPIUI",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18RazorpayTurboUPIUI8LogoViewV",
+        "mangledName": "$s18RazorpayTurboUPIUI8LogoViewV",
+        "moduleName": "RazorpayTurboUPIUI",
+        "intro_iOS": "16.0",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "Available"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -175622,6 +178915,125 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "logoConfig",
+            "printedName": "logoConfig",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RazorpayTurboUPIUI.LogoConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogoConfig",
+                    "printedName": "RazorpayTurboUPIUI.LogoConfig",
+                    "usr": "s:18RazorpayTurboUPIUI10LogoConfigV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI13SDKPreferenceV10logoConfigAA04LogoF0VSgvp",
+            "mangledName": "$s18RazorpayTurboUPIUI13SDKPreferenceV10logoConfigAA04LogoF0VSgvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 11,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "RazorpayTurboUPIUI.LogoConfig?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogoConfig",
+                        "printedName": "RazorpayTurboUPIUI.LogoConfig",
+                        "usr": "s:18RazorpayTurboUPIUI10LogoConfigV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI13SDKPreferenceV10logoConfigAA04LogoF0VSgvg",
+                "mangledName": "$s18RazorpayTurboUPIUI13SDKPreferenceV10logoConfigAA04LogoF0VSgvg",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "RazorpayTurboUPIUI.LogoConfig?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogoConfig",
+                        "printedName": "RazorpayTurboUPIUI.LogoConfig",
+                        "usr": "s:18RazorpayTurboUPIUI10LogoConfigV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI13SDKPreferenceV10logoConfigAA04LogoF0VSgvs",
+                "mangledName": "$s18RazorpayTurboUPIUI13SDKPreferenceV10logoConfigAA04LogoF0VSgvs",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI13SDKPreferenceV10logoConfigAA04LogoF0VSgvM",
+                "mangledName": "$s18RazorpayTurboUPIUI13SDKPreferenceV10logoConfigAA04LogoF0VSgvM",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "TypeDecl",
             "name": "CodingKeys",
             "printedName": "CodingKeys",
@@ -176007,6 +179419,44 @@
                 "fixedbinaryorder": 9
               },
               {
+                "kind": "Var",
+                "name": "logoConfig",
+                "printedName": "logoConfig",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(RazorpayTurboUPIUI.SDKPreference.CodingKeys.Type) -> RazorpayTurboUPIUI.SDKPreference.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "RazorpayTurboUPIUI.SDKPreference.CodingKeys",
+                        "usr": "s:18RazorpayTurboUPIUI13SDKPreferenceV10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "RazorpayTurboUPIUI.SDKPreference.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "RazorpayTurboUPIUI.SDKPreference.CodingKeys",
+                            "usr": "s:18RazorpayTurboUPIUI13SDKPreferenceV10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18RazorpayTurboUPIUI13SDKPreferenceV10CodingKeysO10logoConfigyA2EmF",
+                "mangledName": "$s18RazorpayTurboUPIUI13SDKPreferenceV10CodingKeysO10logoConfigyA2EmF",
+                "moduleName": "RazorpayTurboUPIUI",
+                "fixedbinaryorder": 10
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init(rawValue:)",
@@ -176336,7 +179786,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(bankSDKs:popularBanks:sdkVersions:tpv:merchantInfo:metaData:errorMapping:features:sdkTimeOut:payerAccountTypes:prefetch:)",
+            "printedName": "init(bankSDKs:popularBanks:sdkVersions:tpv:merchantInfo:metaData:errorMapping:features:sdkTimeOut:payerAccountTypes:prefetch:logoConfig:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -176497,11 +179947,26 @@
                 "name": "PrefetchInfo",
                 "printedName": "RazorpayTurboUPIUI.PrefetchInfo",
                 "usr": "s:18RazorpayTurboUPIUI12PrefetchInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RazorpayTurboUPIUI.LogoConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogoConfig",
+                    "printedName": "RazorpayTurboUPIUI.LogoConfig",
+                    "usr": "s:18RazorpayTurboUPIUI10LogoConfigV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:18RazorpayTurboUPIUI13SDKPreferenceV8bankSDKs12popularBanks11sdkVersions3tpv12merchantInfo8metaData12errorMapping8features0I7TimeOut17payerAccountTypes8prefetchACSayAA04BankD0VG_SayAA07PopularH0VGSgAA11SDKVersionsVAA7TPVInfoVSgAA08MerchantM0VSgAA10XPGServiceVSgSSSgAA18PreferenceFeaturesVSgAA03SdksT0VSgAA05PayerV4TypeVSgAA08PrefetchM0Vtcfc",
-            "mangledName": "$s18RazorpayTurboUPIUI13SDKPreferenceV8bankSDKs12popularBanks11sdkVersions3tpv12merchantInfo8metaData12errorMapping8features0I7TimeOut17payerAccountTypes8prefetchACSayAA04BankD0VG_SayAA07PopularH0VGSgAA11SDKVersionsVAA7TPVInfoVSgAA08MerchantM0VSgAA10XPGServiceVSgSSSgAA18PreferenceFeaturesVSgAA03SdksT0VSgAA05PayerV4TypeVSgAA08PrefetchM0Vtcfc",
+            "usr": "s:18RazorpayTurboUPIUI13SDKPreferenceV8bankSDKs12popularBanks11sdkVersions3tpv12merchantInfo8metaData12errorMapping8features0I7TimeOut17payerAccountTypes8prefetch10logoConfigACSayAA04BankD0VG_SayAA07PopularH0VGSgAA11SDKVersionsVAA7TPVInfoVSgAA08MerchantM0VSgAA10XPGServiceVSgSSSgAA18PreferenceFeaturesVSgAA03SdksT0VSgAA05PayerV4TypeVSgAA08PrefetchM0VAA04LogoZ0VSgtcfc",
+            "mangledName": "$s18RazorpayTurboUPIUI13SDKPreferenceV8bankSDKs12popularBanks11sdkVersions3tpv12merchantInfo8metaData12errorMapping8features0I7TimeOut17payerAccountTypes8prefetch10logoConfigACSayAA04BankD0VG_SayAA07PopularH0VGSgAA11SDKVersionsVAA7TPVInfoVSgAA08MerchantM0VSgAA10XPGServiceVSgSSSgAA18PreferenceFeaturesVSgAA03SdksT0VSgAA05PayerV4TypeVSgAA08PrefetchM0VAA04LogoZ0VSgtcfc",
             "moduleName": "RazorpayTurboUPIUI",
             "implicit": true,
             "init_kind": "Designated"
@@ -176590,6 +180055,424 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LogoConfig",
+        "printedName": "LogoConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "upi",
+            "printedName": "upi",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI10LogoConfigV3upiSSvp",
+            "mangledName": "$s18RazorpayTurboUPIUI10LogoConfigV3upiSSvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI10LogoConfigV3upiSSvg",
+                "mangledName": "$s18RazorpayTurboUPIUI10LogoConfigV3upiSSvg",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI10LogoConfigV3upiSSvs",
+                "mangledName": "$s18RazorpayTurboUPIUI10LogoConfigV3upiSSvs",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI10LogoConfigV3upiSSvM",
+                "mangledName": "$s18RazorpayTurboUPIUI10LogoConfigV3upiSSvM",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "razorpay",
+            "printedName": "razorpay",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI10LogoConfigV8razorpaySSvp",
+            "mangledName": "$s18RazorpayTurboUPIUI10LogoConfigV8razorpaySSvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI10LogoConfigV8razorpaySSvg",
+                "mangledName": "$s18RazorpayTurboUPIUI10LogoConfigV8razorpaySSvg",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI10LogoConfigV8razorpaySSvs",
+                "mangledName": "$s18RazorpayTurboUPIUI10LogoConfigV8razorpaySSvs",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI10LogoConfigV8razorpaySSvM",
+                "mangledName": "$s18RazorpayTurboUPIUI10LogoConfigV8razorpaySSvM",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bhim",
+            "printedName": "bhim",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RazorpayTurboUPIUI10LogoConfigV4bhimSSvp",
+            "mangledName": "$s18RazorpayTurboUPIUI10LogoConfigV4bhimSSvp",
+            "moduleName": "RazorpayTurboUPIUI",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI10LogoConfigV4bhimSSvg",
+                "mangledName": "$s18RazorpayTurboUPIUI10LogoConfigV4bhimSSvg",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI10LogoConfigV4bhimSSvs",
+                "mangledName": "$s18RazorpayTurboUPIUI10LogoConfigV4bhimSSvs",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RazorpayTurboUPIUI10LogoConfigV4bhimSSvM",
+                "mangledName": "$s18RazorpayTurboUPIUI10LogoConfigV4bhimSSvM",
+                "moduleName": "RazorpayTurboUPIUI",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(upi:razorpay:bhim:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LogoConfig",
+                "printedName": "RazorpayTurboUPIUI.LogoConfig",
+                "usr": "s:18RazorpayTurboUPIUI10LogoConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18RazorpayTurboUPIUI10LogoConfigV3upi8razorpay4bhimACSS_S2Stcfc",
+            "mangledName": "$s18RazorpayTurboUPIUI10LogoConfigV3upi8razorpay4bhimACSS_S2Stcfc",
+            "moduleName": "RazorpayTurboUPIUI",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LogoConfig",
+                "printedName": "RazorpayTurboUPIUI.LogoConfig",
+                "usr": "s:18RazorpayTurboUPIUI10LogoConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18RazorpayTurboUPIUI10LogoConfigV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s18RazorpayTurboUPIUI10LogoConfigV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "RazorpayTurboUPIUI",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18RazorpayTurboUPIUI10LogoConfigV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s18RazorpayTurboUPIUI10LogoConfigV6encode2toys7Encoder_p_tKF",
+            "moduleName": "RazorpayTurboUPIUI",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18RazorpayTurboUPIUI10LogoConfigV",
+        "mangledName": "$s18RazorpayTurboUPIUI10LogoConfigV",
+        "moduleName": "RazorpayTurboUPIUI",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -198187,6 +202070,27 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/RazorpayUPI\/Screens\/Components\/PaymentFooter\/PaymentFooterManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2152,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/RazorpayUPI\/Screens\/Components\/PaymentFooter\/PaymentFooterManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9899,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/RazorpayUPI\/Screens\/Components\/PaymentFooter\/PaymentFooterManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10140,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/RazorpayUPI\/Analytics\/AnalyticsUtil.swift",
       "kind": "StringLiteral",
       "offset": 741,
@@ -200203,6 +204107,13 @@
       "value": "0"
     },
     {
+      "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Resources\/P2M\/SwiftUIUtility\/CachedImageLoader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 304,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/RazorpayUPI\/IOSSecuritySuite\/ProxyChecker.swift",
       "kind": "BooleanLiteral",
       "offset": 266,
@@ -201570,14 +205481,14 @@
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/RazorpayUPI\/Screens\/Onboarding\/BankAccount\/BankAccountController\/BankAccountViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1230,
+      "offset": 1245,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/RazorpayUPI\/Screens\/Onboarding\/BankAccount\/BankAccountController\/BankAccountViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1387,
+      "offset": 1402,
       "length": 5,
       "value": "false"
     },
@@ -202032,7 +205943,7 @@
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/RazorpayUPI\/Screens\/Non-Transaction\/AccountVpaList\/AccountVpaListController\/AccountVpaListViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 391,
+      "offset": 406,
       "length": 4,
       "value": "true"
     },
@@ -203157,6 +207068,13 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/RazorpayUPI\/Screens\/Components\/PaymentFooter\/PaymentMethodsFooter.swift",
+      "kind": "Array",
+      "offset": 320,
+      "length": 2,
+      "value": "[]"
+    },
+    {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Resources\/P2M\/Toast\/Toast.swift",
       "kind": "StringLiteral",
       "offset": 1447,
@@ -203327,544 +207245,551 @@
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Models\/SDKPreference.swift",
       "kind": "StringLiteral",
-      "offset": 638,
+      "offset": 666,
       "length": 10,
       "value": "\"gateways\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Models\/SDKPreference.swift",
       "kind": "StringLiteral",
-      "offset": 677,
+      "offset": 705,
       "length": 15,
       "value": "\"popular_banks\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Models\/SDKPreference.swift",
       "kind": "StringLiteral",
-      "offset": 720,
+      "offset": 748,
       "length": 14,
       "value": "\"sdk_versions\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Models\/SDKPreference.swift",
       "kind": "StringLiteral",
-      "offset": 780,
+      "offset": 808,
       "length": 10,
       "value": "\"merchant\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Models\/SDKPreference.swift",
       "kind": "StringLiteral",
-      "offset": 815,
+      "offset": 843,
       "length": 10,
       "value": "\"metadata\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Models\/SDKPreference.swift",
       "kind": "StringLiteral",
-      "offset": 854,
+      "offset": 882,
       "length": 20,
       "value": "\"error_mapping_hash\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Models\/SDKPreference.swift",
       "kind": "StringLiteral",
-      "offset": 899,
+      "offset": 927,
       "length": 10,
       "value": "\"features\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Models\/SDKPreference.swift",
       "kind": "StringLiteral",
-      "offset": 943,
+      "offset": 971,
       "length": 29,
       "value": "\"payer_account_type_mappings\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Models\/SDKPreference.swift",
       "kind": "StringLiteral",
-      "offset": 1204,
+      "offset": 1049,
+      "length": 13,
+      "value": "\"logo_config\""
+    },
+    {
+      "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Models\/SDKPreference.swift",
+      "kind": "StringLiteral",
+      "offset": 1370,
       "length": 9,
       "value": "\"gateway\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Models\/SDKPreference.swift",
       "kind": "StringLiteral",
-      "offset": 1676,
+      "offset": 1843,
       "length": 14,
       "value": "\"display_name\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Models\/SDKPreference.swift",
       "kind": "StringLiteral",
-      "offset": 1715,
+      "offset": 1882,
       "length": 11,
       "value": "\"bank_logo\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Models\/SDKPreference.swift",
       "kind": "StringLiteral",
-      "offset": 1937,
+      "offset": 2104,
       "length": 24,
       "value": "\"restrict_bank_accounts\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Models\/SDKPreference.swift",
       "kind": "StringLiteral",
-      "offset": 1990,
+      "offset": 2157,
       "length": 15,
       "value": "\"bank_accounts\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Models\/SDKPreference.swift",
       "kind": "StringLiteral",
-      "offset": 2279,
+      "offset": 2446,
       "length": 11,
       "value": "\"bank_name\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Models\/SDKPreference.swift",
       "kind": "StringLiteral",
-      "offset": 2320,
+      "offset": 2487,
       "length": 16,
       "value": "\"account_number\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Models\/SDKPreference.swift",
       "kind": "StringLiteral",
-      "offset": 2620,
+      "offset": 2787,
       "length": 14,
       "value": "\"display_name\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Models\/SDKPreference.swift",
       "kind": "StringLiteral",
-      "offset": 2785,
+      "offset": 2952,
       "length": 14,
       "value": "\"X-PG-Service\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Models\/SDKPreference.swift",
       "kind": "StringLiteral",
-      "offset": 3089,
+      "offset": 3256,
       "length": 21,
       "value": "\"remove_rzp_branding\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Models\/SDKPreference.swift",
       "kind": "StringLiteral",
-      "offset": 3144,
+      "offset": 3311,
       "length": 31,
       "value": "\"supported_payer_account_types\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Models\/SDKPreference.swift",
       "kind": "StringLiteral",
-      "offset": 3197,
+      "offset": 3364,
       "length": 5,
       "value": "\"tpv\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Models\/SDKPreference.swift",
       "kind": "StringLiteral",
-      "offset": 3245,
+      "offset": 3412,
       "length": 23,
       "value": "\"prefetch_acc_disabled\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Models\/SDKPreference.swift",
       "kind": "StringLiteral",
-      "offset": 3307,
+      "offset": 3474,
       "length": 26,
       "value": "\"customer_rewards_enabled\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Models\/SDKPreference.swift",
       "kind": "StringLiteral",
-      "offset": 3461,
+      "offset": 3628,
       "length": 19,
       "value": "\"olive_sdk_timeout\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Models\/SDKPreference.swift",
       "kind": "StringLiteral",
-      "offset": 3875,
+      "offset": 4042,
       "length": 7,
       "value": "\"banks\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Models\/SDKPreference.swift",
       "kind": "StringLiteral",
-      "offset": 3913,
+      "offset": 4080,
       "length": 17,
       "value": "\"consent_message\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Models\/SDKPreference.swift",
       "kind": "StringLiteral",
-      "offset": 3957,
+      "offset": 4124,
       "length": 13,
       "value": "\"fetch_retry\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Models\/SDKPreference.swift",
       "kind": "StringLiteral",
-      "offset": 4002,
+      "offset": 4169,
       "length": 18,
       "value": "\"fetch_concurrent\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Models\/SDKPreference.swift",
       "kind": "StringLiteral",
-      "offset": 4049,
+      "offset": 4216,
       "length": 15,
       "value": "\"fetch_timeout\""
     },
     {
       "filePath": "\/Users\/ramprasad.a\/Documents\/projects\/upi-in-app-ios\/RazorpayUPI\/Models\/SDKPreference.swift",
       "kind": "StringLiteral",
-      "offset": 4097,
+      "offset": 4264,
       "length": 20,
       "value": "\"account_link_limit\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 628,
       "length": 12,
       "value": "\"CustomBlue\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 778,
       "length": 16,
       "value": "\"CustomDarkblue\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 924,
       "length": 12,
       "value": "\"customGray\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1068,
       "length": 13,
       "value": "\"customGreen\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1213,
       "length": 13,
       "value": "\"customWhite\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1358,
       "length": 13,
       "value": "\"defaultText\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1503,
       "length": 13,
       "value": "\"rewardGreen\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1644,
       "length": 11,
       "value": "\"shadeGray\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1803,
       "length": 21,
       "value": "\"textLowContrastBody\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1974,
       "length": 22,
       "value": "\"textLowContrastTitle\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2128,
       "length": 13,
       "value": "\"textNeutral\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2368,
       "length": 8,
       "value": "\"Vector\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2505,
       "length": 12,
       "value": "\"add_square\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2637,
       "length": 7,
       "value": "\"alert\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2776,
       "length": 13,
       "value": "\"autoPayLogo\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2917,
       "length": 11,
       "value": "\"backArrow\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3061,
       "length": 14,
       "value": "\"bank_balance\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3220,
       "length": 20,
       "value": "\"checkbox_structure\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3364,
       "length": 9,
       "value": "\"checked\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3493,
       "length": 7,
       "value": "\"close\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3628,
       "length": 11,
       "value": "\"closeIcon\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3770,
       "length": 13,
       "value": "\"credit-card\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3903,
       "length": 7,
       "value": "\"cross\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4040,
       "length": 12,
       "value": "\"footerLogo\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4172,
       "length": 7,
       "value": "\"frame\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4299,
       "length": 7,
       "value": "\"icici\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4424,
       "length": 6,
       "value": "\"info\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4552,
       "length": 8,
       "value": "\"loader\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4688,
       "length": 11,
       "value": "\"noAccount\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4830,
       "length": 13,
       "value": "\"not_primary\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4961,
       "length": 6,
       "value": "\"path\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5099,
       "length": 13,
       "value": "\"placeholder\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5236,
       "length": 9,
       "value": "\"primary\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5375,
       "length": 12,
       "value": "\"primaryTag\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5513,
       "length": 10,
       "value": "\"razorpay\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5647,
       "length": 9,
       "value": "\"refresh\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5793,
       "length": 16,
       "value": "\"remove_account\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5938,
       "length": 12,
       "value": "\"right_arow\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 6081,
       "length": 13,
       "value": "\"right_arrow\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 6219,
       "length": 10,
       "value": "\"sms_logo\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 6364,
       "length": 15,
       "value": "\"success_check\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 6495,
       "length": 5,
       "value": "\"tik\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 6631,
       "length": 13,
       "value": "\"toast_close\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 6788,
       "length": 20,
       "value": "\"trailing-icon_down\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 6948,
       "length": 18,
       "value": "\"trailing-icon_up\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 7109,
       "length": 19,
       "value": "\"uncheck_structure\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 7256,
       "length": 11,
       "value": "\"unchecked\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 7391,
       "length": 9,
       "value": "\"upiLogo\""
     },
     {
-      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_UAT-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ramprasad.a\/Library\/Developer\/Xcode\/DerivedData\/BajajAxis-djrouapqvgbxayfzxcqpjvzvdigv\/Build\/Intermediates.noindex\/RazorpayUPI.build\/P2M_TWOP_PROD-iphoneos\/RazorpayTurboUPIUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 7523,
       "length": 9,

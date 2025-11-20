@@ -1,10 +1,11 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
-// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name TurboUpiPluginUI
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name TurboUpiPluginUI
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
 import CoreLocation
 import Foundation
 import Razorpay
+import RazorpayStandard
 import RazorpayTurboUPIUI
 import Swift
 import WebKit
@@ -243,12 +244,12 @@ public protocol RazorpayTokenProvider {
   }
 }
 @_inheritsConvenienceInitializers @objc public class RZPTurboUPI : ObjectiveC.NSObject {
-  @objc public class func pluginInstance() -> any Razorpay.UPITurboPlugin
-  @objc public class func paymentPlugin() -> any Razorpay.PluginPaymentDelegate
-  @objc public class func UIPluginInstance() -> any Razorpay.UPITurboUIPlugin
-  @objc public class func turboUIPaymentPlugin() -> any Razorpay.PluginPaymentDelegate
-  @objc public class func turboTPVUIPlugin() -> any Razorpay.UPITurboTPVUIPlugin
-  @objc public class func turboTPVPlugin() -> any Razorpay.UPITurboTPVPlugin
+  @objc public class func pluginInstance() -> any RazorpayCore.UPITurboPlugin
+  @objc public class func paymentPlugin() -> any RazorpayCore.PluginPaymentDelegate
+  @objc public class func UIPluginInstance() -> any RazorpayCore.UPITurboUIPlugin
+  @objc public class func turboUIPaymentPlugin() -> any RazorpayCore.PluginPaymentDelegate
+  @objc public class func turboTPVUIPlugin() -> any RazorpayCore.UPITurboTPVUIPlugin
+  @objc public class func turboTPVPlugin() -> any RazorpayCore.UPITurboTPVPlugin
   @objc final public class func isDeviceOnboarded() -> Swift.Bool
   @objc final public class func clearSDKState()
   @objc override dynamic public init()
